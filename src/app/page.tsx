@@ -5,7 +5,7 @@ import React from "react";
 import Image from "next/image";
 import time from "@/images/time.png";
 import { ArrowLeft } from "lucide-react";
-import Lucca from "@/images/Lucca.png";
+import Lucca from "@/images/lucca.png";
 import Willian from "@/images/willian.png";
 import Diego from "@/images/diego.png.jpg";
 import Augusto from "@/images/augusto.png";
