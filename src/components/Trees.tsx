@@ -4,7 +4,7 @@ import React from 'react'
 import { useSupression } from '@/lib/Supression'
 
 export default function Trees() {
-  const { trees, wood, updateTrees, updateWood, updateGameOver, gamewon, gameover } = useSupression();
+  const { trees, wood, updateTrees, updateWood, gamewon, gameover } = useSupression();
 
   const handleTreeClick = () => {
     if (gameover || gamewon || trees === 0) return;
