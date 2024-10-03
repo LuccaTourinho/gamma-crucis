@@ -15,8 +15,12 @@ export default function TermoNuclear() {
         cuttedTrees,
     } = useNuclear();
 
-    const [rightTrees, setRightTrees] = React.useState(trees / 2);
-    const [leftTrees, setLeftTrees] = React.useState(trees / 2);
+    //const [rightTrees, setRightTrees] = React.useState(trees / 2);
+    //const [leftTrees, setLeftTrees] = React.useState(trees / 2);
+
+    const rightTrees = (trees/2);
+    const leftTrees = (trees/2);
+    
     const [showFinal, setShowFinal] = React.useState(false);
 
   return (
