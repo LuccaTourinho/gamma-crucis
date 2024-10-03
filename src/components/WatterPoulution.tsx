@@ -4,17 +4,16 @@ import River from './River'
 import WatterTreatment from './WatterTreatment'
 import { useWatter } from '@/lib/Watter'
 import Link from 'next/link'
-import Image from 'next/image'
-import tratamento from '@/images/tatramento.png'
+
 
 export default function WatterPoulution() {
   const [waterQuality, setWaterQuality] = React.useState<string>('Very High - pH 7.4');
   const { 
     on, updateOn, 
-    gameover, updateGameOver, 
+    gameover, 
     money, updateMoney, 
     quality, updateQuality,
-    death, updateDeath, 
+    death,  
     days, daysWithOutTreatment } = useWatter()
     const [daysTreatment, setDaysTreatment] = React.useState<number>(0);
     const [showMessage, setShowMessage] = React.useState<boolean>(false);
