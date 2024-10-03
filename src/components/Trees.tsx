@@ -4,7 +4,7 @@ import React from 'react'
 import { useSupression } from '@/lib/Supression'
 
 export default function Trees() {
-  const { trees, wood} = useSupression();
+  const { trees} = useSupression();
 
   
 
