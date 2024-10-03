@@ -7,7 +7,7 @@ export default function Trees() {
   const { trees, wood, updateTrees} = useSupression();
 
   const handleTreeClick = () => {
-    if (gameover || gamewon || trees === 0) return;
+    if (trees === 0) return;
 
     updateTrees(trees - 1); 
     updateWood(wood + 1);   
