@@ -24,7 +24,9 @@ export const EoContext = createContext<IEoProps>({} as IEoProps);
 
 
 export const EoProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-    const [trees, setTrees] = useState(40);
+    //const [trees, setTrees] = useState(40);
+
+    const trees = 40;
     const [cuttedTrees, setCuttedTrees] = useState(0);
     const [zone1, setZone1] = useState(false);
     const [zone2, setZone2] = useState(false);
