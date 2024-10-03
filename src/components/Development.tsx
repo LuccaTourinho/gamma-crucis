@@ -4,12 +4,12 @@ import React, { useEffect } from 'react'
 import { useSupression } from '@/lib/Supression';
 
 export default function Development() {
-  const {wood, updateGameWon} = useSupression();
+  const {wood} = useSupression();
 
   useEffect(() => {
-    if (wood >= 380) {
-      updateGameWon(true);
-    }
+    //if (wood >= 380) {
+      //updateGameWon(true);
+    //}
     console.log(wood);
   }, [wood]);
 
