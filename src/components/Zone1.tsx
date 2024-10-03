@@ -13,8 +13,12 @@ import Link from 'next/link';
 export default function Zone1() {
     const { cuttedTrees,trees } = useEo();
 
-    const [upperTrees, setUpperTrees] = React.useState(trees / 2);
-    const [lowerTrees, setLowerTrees] = React.useState(trees / 2);
+    //const [upperTrees, setUpperTrees] = React.useState(trees / 2);
+    //const [lowerTrees, setLowerTrees] = React.useState(trees / 2);
+
+    const upperTrees = trees/2;
+    const lowerTrees = trees/2;
+    
     const [showFinal, setShowFinal] = React.useState(false);
 
     React.useEffect(() => {
