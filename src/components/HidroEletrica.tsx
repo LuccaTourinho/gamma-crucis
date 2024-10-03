@@ -13,7 +13,6 @@ import Link from 'next/link';
 export default function HidroEletrica() {
   const { 
     trees,
-    updateTrees,
     cuttedTrees,
     updateCuttedTrees 
   } = useHydro();
