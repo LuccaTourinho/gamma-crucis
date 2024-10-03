@@ -82,7 +82,7 @@ export default function WatterPoulution() {
             <h1 className='text-xs font-bold text-white'>Days: {days}</h1>
             <h1 className='text-xs font-bold text-white'>Days without treatment: {daysWithOutTreatment}</h1>
             <p className={`text-xs font-bold text-white ${showMessage ? 'bold' : 'hidden'}`}>
-            Congratulations: You've earned a $40,000.00 bonus for saving on healthcare costs after leaving your sewage treatment plant on for 30 consecutive days.
+            Congratulations: You haveve earned a $40,000.00 bonus for saving on healthcare costs after leaving your sewage treatment plant on for 30 consecutive days.
             </p>
             <button 
               onClick={handleToggleOn}  // Chama a função que alterna `on`
