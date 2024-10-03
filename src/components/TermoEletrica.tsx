@@ -7,7 +7,7 @@ import Image from 'next/image';
 import termoeletrica0 from '@/images/termoeletrica0.png';
 import termoeletrica1 from '@/images/termoeletrica1.png';
 import termoeletrica2 from '@/images/termoeletrica2.png';
-import termoeletrica3 from '@/images/termoeletrica3.png';
+import termoeletrica3 from '@/images/Termoeletrica3.png';
 import Link from 'next/link';
 
 export default function TermoEletrica() {
