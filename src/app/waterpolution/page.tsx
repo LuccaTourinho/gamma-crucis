@@ -5,7 +5,7 @@ import React from 'react'
 import { WatterProvider } from '@/lib/Watter'
 import { ArrowLeft } from "lucide-react";
 
-export default function page() {
+export default function Page() {
   const [showGame, setShowGame] = React.useState(false);
 
   const handleReturn = () => {
