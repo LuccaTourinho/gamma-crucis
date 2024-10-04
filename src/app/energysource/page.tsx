@@ -14,7 +14,7 @@ export default function Page() {
 
   const handleReturn = () => {
     return (
-      <div onClick={reset} className="fixed bottom-5 left-5 w-[50px] h-[50px] bg-black flex items-center justify-center rounded-3xl hover:cursor-pointer">
+      <div onClick={reset} className="fixed bottom-5 left-5 w-[50px] h-[50px] bg-black text-white flex items-center justify-center rounded-3xl hover:cursor-pointer">
         <ArrowLeft />
       </div>
     )

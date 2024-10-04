@@ -12,16 +12,16 @@ export default function Page() {
           className='w-full h-full hover:cursor-pointer'
         >
         <p className="text-white whitespace-pre-wrap text-justify">
-        Zone potential: 1,100MW ( production potential 0% above demand limit){'\n'}
-        Required demand: 1,100MW {'\n'}
-        Production cost: $1,200/KW {'\n'}
-        Total cost for demand: $1,320,000,000 {'\n'}{'\n'}
-        Impacts:{'\n'}
+        <span className='font-bold'>Zone potential:</span> 1,100MW ( production potential 0% above demand limit){'\n'}
+        <span className='font-bold'>Required demand:</span> 1,100MW {'\n'}
+        <span className='font-bold'>Production cost:</span> $1,200/KW {'\n'}
+        <span className='font-bold'>Total cost for demand:</span> $1,320,000,000 {'\n'}{'\n'}
+        <span className='font-bold uppercase'>Impacts:</span>{'\n'}
 
         •	Your project complied with the legislation and built the power plant 1.5 km (4921 ft) away from the residences, noise pollution is not reaching the residences, avoiding psychological problems for residents due to noise pollution.{'\n'} 
         •	Deforestation and loss of biodiversity.{'\n'}
         •	Bird deaths from hitting the blades{'\n'}
-        CLECK HERE TO KNOW MORE
+        CLICK HERE TO KNOW MORE
         </p>
         </Link>
       </div>

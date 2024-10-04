@@ -12,17 +12,17 @@ export default function Page() {
           className='w-full h-full hover:cursor-pointer'
         >
         <p className="text-white whitespace-pre-wrap text-justify">
-        Zone potential: 1,800MW (production potential 63.6% above the demand limit){'\n'}
-        Required demand: 1,100MW {'\n'}
-        Production cost: $1,200/KW {'\n'}
-        Total cost for demand: $1,320,000,000 {'\n'}
-        Total cost for potential zone limit: $2,160,000,000{'\n'}{'\n'}
-        Impacts:{'\n'}
+        <span className='font-bold'>Zone potential:</span> 1,800MW (production potential 63.6% above the demand limit){'\n'}
+        <span className='font-bold'>Required demand:</span> 1,100MW {'\n'}
+        <span className='font-bold'>Production cost:</span> $1,200/KW {'\n'}
+        <span className='font-bold'>Total cost for demand:</span> $1,320,000,000 {'\n'}
+        <span className='font-bold'>Total cost for potential zone limit:</span> $2,160,000,000{'\n'}{'\n'}
+        <span className='font-bold uppercase'>Impacts:</span>{'\n'}
 
         •	The project complied with the legislation and built the power plant 700 meters (2296 ft) away from the residences, generating noise pollution of 30 decibels, avoiding psychological problems for residents due to noise pollution.{'\n'} 
         •	This zone is on a bird migration route, there will be high bird mortality due to collisions with the blades.{'\n'}
         •	Deforestation and loss of biodiversity.{'\n'}
-        CLECK HERE TO KNOW MORE
+        CLICK HERE TO KNOW MORE
         </p>
         </Link>
       </div>
