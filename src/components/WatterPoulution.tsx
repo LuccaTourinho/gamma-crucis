@@ -88,7 +88,7 @@ export default function WatterPoulution() {
               onClick={handleToggleOn}  // Chama a função que alterna `on`
               className={`text-sm font-bold text-white p-2 rounded-md transition-all duration-300 
                 ${on ? 'bg-red-600 hover:scale-110' : 'bg-green-600 hover:scale-110'}`}>
-              {on ? 'Turn Off' : 'Turn Onn'}
+              {on ? 'Turn Off' : 'Turn On'}
             </button>
           </div>
           <div className='flex w-full h-full'>
