@@ -106,6 +106,7 @@ export default function TermoEletrica() {
                     * The plant will emit <span className='font-bold'>530.2 tons of polluting gases per hour</span>, such as Carbon Dioxide (CO2), Carbon Monoxide (CO) and Nitrogen Oxides.{'\n'}
                     * Respiratory problems in the population due to the gases.{'\n'}
                     *The gases emitted will come into contact with water in the atmosphere, thus leading to the phenomenon of acid rain {'\n'}
+                    CLICK HERE TO KNOW MORE
                     </p>
                 </div>
                 </Link>

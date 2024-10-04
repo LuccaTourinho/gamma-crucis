@@ -110,6 +110,7 @@ export default function HidroEletrica() {
                 * Flooding of riverside communities{'\n'}
                 * High interference in the reproductive cycle of fish{'\n'}
                 * Loss of fauna biodiversity{'\n'}
+                CLICK HERE TO KNOW MORE
                 </p>
             </div>
           </Link>
