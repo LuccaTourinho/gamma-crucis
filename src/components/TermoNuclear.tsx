@@ -8,6 +8,7 @@ import Usina2 from '@/images/Usina2.png';
 import Image from 'next/image';
 import Florest from '@/images/termoeletrica0.png';
 import Link from 'next/link';
+import { Span } from 'next/dist/trace';
 
 export default function TermoNuclear() {
     const {
@@ -99,13 +100,14 @@ export default function TermoNuclear() {
                     rel="noopener noreferrer"
                 >
                     <p className='text-white whitespace-pre-wrap text-justify overflow-y-auto'>
-                    Required Demand: 1,100MW {'\n'}
-                    Production Cost: ($ 5,500/KW) {'\n'}
-                    Total Cost: $ 6,050,000,000 {'\n'}{'\n'}
-                    Impacts: {'\n'}
-                    * Your project caused psychological distress to residents due to noise pollution of 80 decibels, as the wind generators were built 150 meters (492 ft) away from homes. {'\n'}
-                    * Deforestation and loss of biodiversity.{`\n`}
-                    * Bird deaths from hitting the blades{`\n`}
+                    <span className='font-bold'>Required Demand:</span> 1,100MW {'\n'}
+                    <span className='font-bold'>Production Cost:</span> ($ 5,500/KW) {'\n'}
+                    <span className='font-bold'>Total Cost:</span> $ 6,050,000,000 {'\n'}{'\n'}
+                    <span className='font-bold uppercase'>Impacts:</span> {'\n'}
+                    * <span className='font-bold uppercase'>Deforested area:</span> 3,3 km² (1,27 mi²)
+                    {'\n'}
+                    * Risk of radioactive contamination due to nuclear accident{`\n`}
+                    * Its plant will produce <span className='font-bold'>134,000 liters(35,399 gal) of Uranium-235 radioactive waste (670 barrels) annually</span>, which will have to be stored for <span className='font-bold'>8,000 years.</span>{`\n`}
                     CLICK HERE TO KNOW MORE
                     </p>
                 </Link>

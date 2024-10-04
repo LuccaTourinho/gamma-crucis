@@ -97,13 +97,13 @@ export default function TermoEletrica() {
                 >
                     <div className='w-full h-full bg-[#011126] p-6 overflow-y-auto flex flex-col justify-start'>
                     <p className="text-white whitespace-pre-wrap text-justify">
-                    Required Demand: 1,100MW{'\n'}
-                    Production Cost: ($812/KW){'\n'}
-                    Total Cost: $893,200,000{'\n'}
+                    <span className='font-bold'>Required Demand:</span> 1,100MW{'\n'}
+                    <span className='font-bold'>Production Cost:</span> ($812/KW){'\n'}
+                    <span className='font-bold'>Total Cost: </span> $893,200,000{'\n'}
                     {'\n'}
-                    Impacts:{'\n'}
-                    * Deforested forest area: 1,20 km² (0,46 mi²){'\n'}
-                    * The plant will emit 530.2 tons of polluting gases per hour, such as Carbon Dioxide (CO2), Carbon Monoxide (CO) and Nitrogen Oxides.{'\n'}
+                    <span className='font-bold uppercase'>Impacts:</span>{'\n'}
+                    * <span className='font-bold'>Deforested area:</span> 1,20 km² (0,46 mi²){'\n'}
+                    * The plant will emit <span className='font-bold'>530.2 tons of polluting gases per hour</span>, such as Carbon Dioxide (CO2), Carbon Monoxide (CO) and Nitrogen Oxides.{'\n'}
                     * Respiratory problems in the population due to the gases.{'\n'}
                     *The gases emitted will come into contact with water in the atmosphere, thus leading to the phenomenon of acid rain {'\n'}
                     </p>

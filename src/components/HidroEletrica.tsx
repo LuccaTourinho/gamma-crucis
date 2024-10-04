@@ -101,12 +101,12 @@ export default function HidroEletrica() {
           >
             <div className='w-full h-full bg-[#011126] p-6 overflow-y-auto flex flex-col justify-start'>
                 <p className="text-white whitespace-pre-wrap text-justify">
-                Required Demand: 1,100MW{'\n'}
-                Construction costs: ($1500/KW){'\n'}
-                Total Cost: $1,375,000,000{'\n'}
+                <span className='font-bold'>Required Demand:</span> 1,100MW{'\n'}
+                <span className='font-bold'>Construction costs:</span> ($1500/KW){'\n'}
+                <span className='font-bold'>Total Cost:</span> $1,375,000,000{'\n'}
                 {'\n'}
-                Impacts:{'\n'}
-                * Deforested forest area: 281 km² (108.4 mi²){'\n'}
+                <span className='font-bold uppercase'>Impacts:</span>{'\n'}
+                * <span className='font-bold'>Deforested area:</span> 281 km² (108.4 mi²){'\n'}
                 * Flooding of riverside communities{'\n'}
                 * High interference in the reproductive cycle of fish{'\n'}
                 * Loss of fauna biodiversity{'\n'}

@@ -28,7 +28,7 @@ export default function Page() {
         <Link href={"https://www.youtube.com/watch?v=0iCo_t9pY6g"}
           target="_blank" 
           rel="noopener noreferrer"
-          className='w-full h-full hover:cursor-pointer'>
+          className='w-full h-full hover:cursor-pointer text-white'>
           SEE VIDEO(Portuguese language)
         </Link>
       </div>
