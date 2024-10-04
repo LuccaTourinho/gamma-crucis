@@ -80,7 +80,7 @@ export default function WatterPoulution() {
             <h1 className='text-xs font-bold text-white'>Water Quality: {waterQuality}</h1>
             <h1 className='text-xs font-bold text-white'>Cases of leptospirosis and cholera: {death}</h1>
             <h1 className='text-xs font-bold text-white'>Days: {days}</h1>
-            <h1 className='text-xs font-bold text-white'>Days without treatment: {daysWithOutTreatment}</h1>
+            <h1 className='text-xs font-bold text-white'>Days without sewage treatment: {daysWithOutTreatment}</h1>
             <p className={`text-xs font-bold text-white ${showMessage ? 'bold' : 'hidden'}`}>
             Congratulations: You haveve earned a $40,000.00 bonus for saving on healthcare costs after leaving your sewage treatment plant on for 30 consecutive days.
             </p>
@@ -88,7 +88,7 @@ export default function WatterPoulution() {
               onClick={handleToggleOn}  // Chama a função que alterna `on`
               className={`text-sm font-bold text-white p-2 rounded-md transition-all duration-300 
                 ${on ? 'bg-red-600 hover:scale-110' : 'bg-green-600 hover:scale-110'}`}>
-              {on ? 'Turn Off' : 'Turn On'}
+              {on ? 'Turn Off sewage treatment' : 'Turn On sewage treatment'}
             </button>
           </div>
           <div className='flex w-full h-full'>
