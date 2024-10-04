@@ -29,9 +29,8 @@ export default function Page() {
               Your city is experiencing an economic boom and many{'\n'}
               construction companies are planning to build condominiums {'\n'}
               where there are currently forests, some of which are conservation {'\n'}
-              areas. As a manager, you will have to decide whether or not to{'\n'}
-              allow the construction of each of these properties.{'\n'}
-              YOUR CHOICES HAVE CONSEQUENCES!{'\n'}
+              areas. As a manager, you will have to decide how many buildings there will be{'\n'}
+              YOUR CHOICES HAVE CONSEQUENCES !{'\n'}
               </p>
               <button onClick={startGame} className='w-[200px] h-[50px] bg-[#8C0303] hover:bg-[#F23E2E] text-white rounded-md mt-10 flex items-center justify-center'>
                 Play
