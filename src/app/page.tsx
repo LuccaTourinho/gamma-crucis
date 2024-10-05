@@ -11,7 +11,7 @@ import Diego from "@/images/diego.png.jpg";
 import Augusto from "@/images/augusto.png";
 import Matheus from "@/images/mateus.png";
 import fabricio from "@/images/fabricio.jpg";
-import { Span } from "next/dist/trace";
+import LogoMarca from "@/images/LogoMarca.png";
 
 
 export default function Home() {
@@ -64,10 +64,13 @@ export default function Home() {
             ? ( 
                !showGuide ? 
                 (
-                  <div className='flex flex-col items-center justify-around w-[1440px] h-full bg-[#011126] p-6 rounded-xl'>
-                    <h1 className="text-md font-bold text-white">
+                  <div className='flex flex-col items-center justify-around w-[1440px] h-full bg-green-600 p-6 rounded-xl'>
+                    {/* <h1 className="text-md font-bold text-white">
                       GLOBE CITY
-                    </h1>
+                    </h1> */}
+                    <div className="relative w-full h-[100px] sm:h-[120px] md:h-[130px] lg:h-[150px] xl:h-[200px] 2xl:h-[250px]">
+                    <Image src={LogoMarca} alt="Globe City" fill className="object-contain"/>
+                    </div>
                     <div className="flex flex-col justify-between gap-9 items-center w-full p-6">
                       <button onClick={startGame} className="text-md font-bold text-white border-2 border-white bg-[#8C0303] p-3 rounded-lg hover:cursor-pointer hover:scale-105 hover:bg-[#F23E2E] transition-all duration-300 w-[150px]">
                         Start
@@ -84,7 +87,7 @@ export default function Home() {
                     </div>
                 </div>
                 ) : (
-                  <div className='flex flex-col items-center justify-start w-[1440px] h-full bg-[#011126] p-6 rounded-xl overflow-y-auto max-h-screen'>
+                  <div className='flex flex-col items-center justify-start w-[1440px] h-full bg-green-600 p-6 rounded-xl overflow-y-auto max-h-screen'>
                     <p className="text-white whitespace-pre-wrap text-justify">
                       GUIDE:{"\n\n"}
                       Our challenge was to create a GLOBE Program game to help players understand the world around them,
@@ -106,7 +109,7 @@ export default function Home() {
                 )
             ) :
             (
-              <div className='flex flex-col items-center justify-around w-[1440px] h-full bg-[#011126] p-6 rounded-xl'>
+              <div className='flex flex-col items-center justify-around w-[1440px] h-full bg-green-600 p-6 rounded-xl'>
                 <p className="text-xs font-bold text-white">
                 This project was developed by the Gamma Crucis team for the NASA Space Apps 2024 competition in Salvador-Bahia-Brazil.
                 </p>
