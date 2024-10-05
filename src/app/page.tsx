@@ -72,17 +72,17 @@ export default function Home() {
                     <Image src={LogoMarca} alt="Globe City" fill className="object-contain"/>
                     </div>
                     <div className="flex flex-col justify-between gap-9 items-center w-full p-6">
-                      <button onClick={startGame} className="text-md font-bold text-white border-2 border-white bg-[#8C0303] p-3 rounded-lg hover:cursor-pointer hover:scale-105 hover:bg-[#F23E2E] transition-all duration-300 w-[150px]">
+                      <button onClick={startGame} className="text-md font-bold text-white border-2 border-white bg-cyan-500 p-3 rounded-lg hover:cursor-pointer hover:scale-105 hover:bg-cyan-300 transition-all duration-300 w-[150px]">
                         Start
                       </button>
-                      <button onClick={startGuide}  className="text-md font-bold text-white border-2 border-white bg-[#8C0303] p-3 rounded-lg hover:cursor-pointer hover:scale-105 hover:bg-[#F23E2E] transition-all duration-300 w-[150px]">
+                      <button onClick={startGuide}  className="text-md font-bold text-white border-2 border-white bg-cyan-500 p-3 rounded-lg hover:cursor-pointer hover:scale-105 hover:bg-cyan-300 transition-all duration-300 w-[150px]">
                         Guide
                       </button>
-                      <button onClick={startCredits} className="text-md font-bold text-white border-2 border-white bg-[#8C0303] p-3 rounded-lg hover:cursor-pointer hover:scale-105 hover:bg-[#F23E2E] transition-all duration-300 w-[150px]">
+                      <button onClick={startCredits} className="text-md font-bold text-white border-2 border-white bg-cyan-500 p-3 rounded-lg hover:cursor-pointer hover:scale-105 hover:bg-cyan-300 transition-all duration-300 w-[150px]">
                         Credits
                       </button>
                     </div>
-                    <div className="text-md font-bold text-white rounded-lg p-2 border-2 border-white bg-[#8C0303]">
+                    <div className="text-md font-bold text-white rounded-lg p-2 border-2 border-white bg-cyan-500">
                       NASA Space Apps 2024 - Salvador - Brazil
                     </div>
                 </div>
