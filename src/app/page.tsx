@@ -94,12 +94,12 @@ export default function Home() {
                       science and education program that focuses on promoting scientific literacy and building connections among
                       people passionate about the environment.{"\n\n"}
                       GLOBE has three main goals:{"\n"}
-                      (1) to increase environmental awareness,{"\n"}
+                      (1) <span className="font-bold">to increase environmental awareness,{"\n"}</span>                 
                       (2) to contribute to the scientific understanding of Earth, and{"\n"}
                       (3) to support improved student achievement in science and mathematics.{"\n"}
                       Operating in more than 125 countries, GLOBE provides information on approximately 40 different protocols
                       (or ways of making environmental observations) that provide hands-on learning opportunities to learn about
-                      Earth’s pedosphere, hydrosphere, atmosphere, and biosphere.
+                      Earth’s pedosphere, hydrosphere, atmosphere, and biosphere.{"\n"}
                     </p>
                   </div>
                 )
