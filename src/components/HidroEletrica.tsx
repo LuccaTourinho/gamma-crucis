@@ -106,10 +106,10 @@ export default function HidroEletrica() {
                 <span className='font-bold'>Total Cost:</span> $1,375,000,000{'\n'}
                 {'\n'}
                 <span className='font-bold uppercase'>Impacts:</span>{'\n'}
-                * <span className='font-bold'>Deforested area:</span> 281 km²(108.4 mi²) = 39,355 football pitch{'\n'}
-                * Flooding of riverside communities{'\n'}
-                * High interference in the reproductive cycle of fish{'\n'}
-                * Loss of fauna biodiversity{'\n'}
+                * <span className='font-bold'>Deforested area:</span> 281 km²(108.4 mi²) = 39,355 football pitch;{'\n'}
+                * <span className='font-bold'>Flooding of riverside communities;{'\n'}</span>
+                * <span className='font-bold'>High interference in the reproductive cycle of fish;{'\n'}</span>
+                * <span className='font-bold'>Loss of fauna biodiversity.{'\n'}</span>
                 CLICK HERE TO KNOW MORE
                 </p>
             </div>
