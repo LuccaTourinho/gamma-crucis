@@ -37,10 +37,10 @@ export default function VegetalSupression() {
       {
         !endGame ? (
           <>
-            <div className='flex flex-col  w-full items-center'>
-            <h1 className='text-xs font-bold text-white uppercase'>Deforestation control</h1>
-            <h1 className='text-xs font-bold text-white'>Tempeture: {tempeture}°C</h1>
-            <h1 className='text-xs font-bold text-white'>Taxes Revenue: $ {money}</h1>
+            <div className='flex flex-col items-center w-full border-2 border-black rounded-md p-3 bg-white'>
+            <h1 className='text-xs font-bold text-black uppercase'>Deforestation control</h1>
+            <h1 className='text-xs font-bold text-black'>Tempeture: {tempeture}°C</h1>
+            <h1 className='text-xs font-bold text-black'>Taxes Revenue: $ {money}</h1>
             <button onClick={() => setEndGame(true)} className='text-xs font-bold text-white bg-cyan-500 hover:bg-cyan-300 p-0.5'>
               Finish
             </button>
