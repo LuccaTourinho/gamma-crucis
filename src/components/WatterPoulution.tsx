@@ -75,9 +75,13 @@ export default function WatterPoulution() {
         !gameover ? (
           <>
           <div className='flex flex-col items-center w-full p-3'>
+            <div className='flex flex-col items-center w-full border-2 border-black rounded-md p-3 bg-slate-500'>
             <h1 className='text-xs font-bold text-white'>SANITATION</h1>
             <h1 className='text-xs font-bold text-white'>Money: $ {money}</h1>
-            <h1 className='text-xs font-bold text-white'>Water Quality: {waterQuality}</h1>
+            <h1 className='text-xs font-bold text-white'>Water Quality: <span className={`${waterQuality == 'Very High - pH 7.4' ? 'text-sky-400' : ''}
+                  ${waterQuality == 'High - pH 7.0' ? 'text-blue-400' : ''}
+                  ${waterQuality == 'Low - pH 5.0' ? 'text-green-900' : ''}
+                  ${waterQuality == 'Worthless - pH 4.0' ? 'text-yellow-800' : ''}`}>{waterQuality}</span></h1>
             <h1 className='text-xs font-bold text-white'>Cases of leptospirosis and cholera: {death}</h1>
             <h1 className='text-xs font-bold text-white'>Days: {days}</h1>
             <h1 className='text-xs font-bold text-white'>Days without sewage treatment: {daysWithOutTreatment}</h1>
@@ -91,6 +95,7 @@ export default function WatterPoulution() {
                 ${on ? 'bg-red-600 hover:scale-110' : 'bg-cyan-500 hover:scale-110'}`}>
               {on ? 'Turn Off sewage treatment' : 'Turn On sewage treatment'}
             </button>
+            </div>
           </div>
           <div className='flex w-full h-full'>
             <div className='flex flex-col h-full w-[80%]'>
