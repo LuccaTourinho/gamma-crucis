@@ -11,6 +11,7 @@ import Diego from "@/images/diego.png.jpg";
 import Augusto from "@/images/augusto.png";
 import Matheus from "@/images/mateus.png";
 import fabricio from "@/images/fabricio.jpg";
+import { Span } from "next/dist/trace";
 
 
 export default function Home() {
@@ -93,10 +94,10 @@ export default function Home() {
                       The GLOBE (Global Learning and Observations for the Benefit of the Environment) Program is an international
                       science and education program that focuses on promoting scientific literacy and building connections among
                       people passionate about the environment.{"\n\n"}
-                      GLOBE has three main goals:{"\n"}
-                      (1) <span className="font-bold">to increase environmental awareness,{"\n"}</span>                 
-                      (2) to contribute to the scientific understanding of Earth, and{"\n"}
-                      (3) to support improved student achievement in science and mathematics.{"\n"}
+                      <span className="font-bold">GLOBE has three main goals:{"\n"}</span>
+                      <span className="font-bold">(1) To increase environmental awareness;{"\n"}</span>                 
+                      <span className="font-bold">(2) To contribute to the scientific understanding of Earth;{"\n"}</span>                 
+                      <span className="font-bold">(3) To support improved student achievement in science and mathematics.{"\n\n"}</span>
                       Operating in more than 125 countries, GLOBE provides information on approximately 40 different protocols
                       (or ways of making environmental observations) that provide hands-on learning opportunities to learn about
                       Earth’s pedosphere, hydrosphere, atmosphere, and biosphere.{"\n"}
