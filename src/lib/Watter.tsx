@@ -83,15 +83,18 @@ export const WatterProvider: React.FC<{ children: ReactNode }> = ({ children }) 
     }, []);
 
     useEffect(() => {
-        if (!on) {
-            setDaysWithOutTreatment((prevDays) => prevDays + 1);
-            const deathsToAdd = calculateDeaths(daysWithOutTreatment);
-            if (deathsToAdd > 0) {
-                setDeath((prevDeath) => prevDeath + deathsToAdd);
+        if(death < 500000){
+            if (!on) {
+                setDaysWithOutTreatment((prevDays) => prevDays + 1);
+                const deathsToAdd = calculateDeaths(daysWithOutTreatment);
+                if (deathsToAdd > 0) {
+                    setDeath((prevDeath) => prevDeath + deathsToAdd);
+                }
+            }else{
+                setMoney((prevMoney) => prevMoney - 500);
             }
-        }else{
-            setMoney((prevMoney) => prevMoney - 500);
         }
+        
     }, [days]);
 
     const calculateDeaths = (daysWithoutTreatment: number) => {
