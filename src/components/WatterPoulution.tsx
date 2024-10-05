@@ -21,7 +21,7 @@ export default function WatterPoulution() {
 
     React.useEffect(() => {
       if (quality < 4) {
-        setWaterQuality('Worthless - pH 4.0');
+      setWaterQuality('Worthless - pH 4.0');
       } else if (quality >= 4 && quality < 6) {
         setWaterQuality('Low - pH 5.0');
       } else if (quality >= 6 && quality < 9) {

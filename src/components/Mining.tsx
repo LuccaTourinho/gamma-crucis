@@ -204,11 +204,11 @@ export default function Mining() {
       </div>
       <div className='w-full h-full bg-cyan-300 flex flex-col items-center justify-around px-0.5'>
         <p className='text-lg font-bold uppercase'>Mining Control</p>
-        <p>Day: {days}</p>
-        <p>Total Taxes Revenue: $ {totalTaxes}</p>
-        <p>Number of contamined by toxic metals: {contamination}</p>
-        <p>Probability of environmental disaster: {naturalDisaster}%</p>
-        <p>Environment Fiscalization:</p>
+        <p>DAY: {days}</p>
+        <p>TOTAL TAXES REVENUE: $ {totalTaxes}</p>
+        <p>NUMBER OF CONTAMINED BY TOXIC METALS: {contamination}</p>
+        <p>PROBABILITY OF ENVIRONMENTAL DISASTER: {naturalDisaster}%</p>
+        <p>ENVIRONMENT FISCALIZATION:</p>
         <div className='flex flex-row h-[5%] w-full'>
           <div className='w-full h-full '>
               <div className='text-xs w-full h-full flex items-center justify-center  border-2 border-black'>Level</div>
