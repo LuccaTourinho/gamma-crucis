@@ -11,12 +11,13 @@ export default function ChooseGame() {
       </p>
       <div className='flex flex-col xl:flex-row items-center justify-center w-full h-full'>
         <div className='flex flex-col md:flex-row items-center justify-around w-full h-full'>
-            <Game title='Sanitation' text='Management of water treatment plant operations' direction='/waterpolution'/>
+          <Game title='Mining' text='Management of operating control and environmental inspection of mines' direction='/mining'/>
             <Game title='Deforestation control' text='Managing deforestation control for city expansion' direction='/vegetalsupression'/>
         </div>
         <div className='flex flex-col md:flex-row items-center justify-around h-full w-full'>
             <Game title='Energy sources' text='Power plant construction management' direction='/energysource'/>
-            <Game title='Mining' text='Management of operating control and environmental inspection of mines' direction='/mining'/>
+            <Game title='Sanitation' text='Management of water treatment plant operations' direction='/waterpolution'/>
+
         </div>
       </div>
     </div>
