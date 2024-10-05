@@ -83,7 +83,6 @@ export const WatterProvider: React.FC<{ children: ReactNode }> = ({ children }) 
     }, []);
 
     useEffect(() => {
-        if(death < 500000){
             if (!on) {
                 setDaysWithOutTreatment((prevDays) => prevDays + 1);
                 const deathsToAdd = calculateDeaths(daysWithOutTreatment);
@@ -93,7 +92,6 @@ export const WatterProvider: React.FC<{ children: ReactNode }> = ({ children }) 
             }else{
                 setMoney((prevMoney) => prevMoney - 500);
             }
-        }
         
     }, [days]);
 
