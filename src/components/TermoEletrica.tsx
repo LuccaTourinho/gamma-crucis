@@ -95,7 +95,7 @@ export default function TermoEletrica() {
                     rel="noopener noreferrer"
                     className='w-full h-full'
                 >
-                    <div className='w-full h-full bg-[#011126] p-6 overflow-y-auto flex flex-col justify-start'>
+                    <div className='w-full h-full bg-red-600 p-6 overflow-y-auto flex flex-col justify-start'>
                     <p className="text-white whitespace-pre-wrap text-justify">
                     <span className='font-bold'>Required Demand:</span> 1,100MW{'\n'}
                     <span className='font-bold'>Production Cost:</span> ($812/KW){'\n'}

@@ -65,10 +65,10 @@ export default function HidroEletrica() {
           </div>
           <div className='w-[20%] h-full flex flex-col items-center justify-center'>
             <div className='w-full h-full bg-blue-400'></div>
-            <div className='relative w-full h-[5%] md:h-[25%] lg:h-[35%] xl:h-[45%] 2xl:h-[53%] flex items-center justify-center'>
+            <div className='relative w-full h-[5%] md:h-[25%] lg:h-[35%] xl:h-[45%] 2xl:h-[53%] flex items-center justify-center bg-blue-400'>
               <Image src={currentImage} alt='hidroestação' fill style={{ objectFit: 'contain' }} />
             </div>
-            <button className={`w-full h-[5%] p-0.5 bg-[#8C0303] hover:bg-[#F23E2E] hover:cursor-pointer text-xs ${cuttedTrees <100 ? 'hidden' : ''}`} onClick={() => setShowFinal(true)}>
+            <button className={`w-full h-[5%] p-0.5 bg-cyan-500 hover:bg-cyan-300 hover:cursor-pointer text-xs ${cuttedTrees <100 ? 'hidden' : ''}`} onClick={() => setShowFinal(true)}>
               Finish
             </button>
           </div>
@@ -99,7 +99,7 @@ export default function HidroEletrica() {
             rel='noopener noreferrer'
             className='w-full h-full'
           >
-            <div className='w-full h-full bg-[#011126] p-6 overflow-y-auto flex flex-col justify-start'>
+            <div className='w-full h-full bg-blue-400 p-6 overflow-y-auto flex flex-col justify-start'>
                 <p className="text-white whitespace-pre-wrap text-justify">
                 <span className='font-bold'>Required Demand:</span> 1,100MW{'\n'}
                 <span className='font-bold'>Construction costs:</span> ($1500/KW){'\n'}

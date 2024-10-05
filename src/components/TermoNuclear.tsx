@@ -78,7 +78,7 @@ export default function TermoNuclear() {
                                 </div>
                             </div>
                             <div className={`w-full h-[5%] `}>
-                                    <button className={`w-full h-full bg-red-900 p-1 hover:bg-red-300 hover:cursor-pointer ${cuttedTrees < 40 ? 'hidden' : ''}`} onClick={() => setShowFinal(true)}>
+                                    <button className={`w-full h-full bg-cyan-500 p-1 hover:bg-cyan-300 hover:cursor-pointer ${cuttedTrees < 40 ? 'hidden' : ''}`} onClick={() => setShowFinal(true)}>
                                         Finish
                                     </button>
                             </div>
@@ -95,7 +95,7 @@ export default function TermoNuclear() {
             ) : (
                 <Link 
                     href={'https://www.eia.gov/energyexplained/nuclear/nuclear-power-and-the-environment.php'}
-                    className='w-full h-full bg-blue-900 p-6'
+                    className='w-full h-full bg-yellow-500 p-6'
                     target="_blank" 
                     rel="noopener noreferrer"
                 >
