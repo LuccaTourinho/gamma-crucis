@@ -65,9 +65,9 @@ export default function Home() {
                !showGuide ? 
                 (
                   <div className='flex flex-col items-center justify-around w-[1440px] h-full bg-green-600 p-6 rounded-xl'>
-                    {/* <h1 className="text-md font-bold text-white">
+                     <h1 className="text-md font-bold text-white">
                       GLOBE CITY
-                    </h1> */}
+                    </h1> 
                     <div className="relative w-full h-[100px] sm:h-[120px] md:h-[130px] lg:h-[150px] xl:h-[200px] 2xl:h-[250px]">
                     <Image src={LogoMarca} alt="Globe City" fill className="object-contain"/>
                     </div>
