@@ -11,7 +11,7 @@ export default function Page() {
             rel="noopener noreferrer"
             className='w-full h-full'
           >
-            <div className='flex flex-col items-center justify-center w-[1440px] bg-[#011126] h-full text-white p-6'>
+            <div className='flex flex-col items-center justify-center w-[1440px] bg-green-600 h-full text-white p-6'>
             <p className='text-white whitespace-pre-wrap text-justify overflow-y-auto'>
             Mining is an extremely important activity for society, after all,{'\n'}
             dozens of different metals are constantly present in our daily lives,{'\n'} 

@@ -33,11 +33,11 @@ export default function Page() {
             <EnergySource />
           )
           : (
-            <div className='flex flex-col items-center justify-center w-[1440px] h-full bg-[#011126] p-6 rounded-xl'>
+            <div className='flex flex-col items-center justify-center w-[1440px] h-full bg-green-600 p-6 rounded-xl'>
               <p className='text-white whitespace-pre-wrap text-justify'>
               Due to the growth of your city, current power plants will soon be unable to meet the emerging demand. The Ministry of Mines and Energy has presented you with these four proposals, each of which has its own benefits and drawbacks. YOUR CHOICES HAVE CONSEQUENCES !
               </p>
-              <button onClick={startGame} className='w-[200px] h-[50px] bg-[#8C0303] hover:bg-[#F23E2E] text-white rounded-md mt-10 flex items-center justify-center'>
+              <button onClick={startGame} className='w-[200px] h-[50px] bg-cyan-500 hover:bg-cyan-300 text-white rounded-md mt-10 flex items-center justify-center'>
                 Play
               </button>
             </div>

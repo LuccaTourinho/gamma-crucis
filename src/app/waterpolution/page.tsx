@@ -31,14 +31,14 @@ export default function Page() {
       {
         !showGame
           ? (
-            <div className='flex flex-col items-center justify-center w-[1440px] h-full bg-[#011126] p-6 rounded-xl'>
+            <div className='flex flex-col items-center justify-center w-[1440px] h-full bg-green-600 p-6 rounded-xl'>
               <p className='text-white whitespace-pre-wrap text-justify'>
               Your city is going through a financial crisis at the city hall and you, {'\n'}
               as the manager, will have to decide whether or not to cut spending at the {'\n'}
               water treatment plant for the next 365 days. {'\n'}
               YOUR CHOICES HAVE CONSEQUENCES{'\n'}
               </p>
-              <button onClick={startGame} className='w-[200px] h-[50px] bg-[#8C0303] hover:bg-[#F23E2E] text-white rounded-md mt-10 flex items-center justify-center'>
+              <button onClick={startGame} className='w-[200px] h-[50px] bg-cyan-500 hover:bg-cyan-300 text-white rounded-md mt-10 flex items-center justify-center'>
                 Play
               </button>
             </div>

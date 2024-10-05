@@ -73,7 +73,7 @@ export default function Zone2() {
         }
       </div>
       <Link href={'/energysource/eolica/zone2'} className='w-full h-[10%]'>
-        <button className={`w-full h-full bg-red-900 hover:bg-red-300 text-white p-0.5 hover:cursor-pointer ${!showFinal ? 'hidden' : ''}`}>
+        <button className={`w-full h-full bg-cyan-500 hover:bg-cyan-300 text-white p-0.5 hover:cursor-pointer ${!showFinal ? 'hidden' : ''}`}>
           Finish
         </button>
       </Link>

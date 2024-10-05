@@ -228,7 +228,7 @@ export default function Mining() {
             </div>
           ))}
         </div>
-        <Link href={'/mining/finish'} className={`h-[5%] w-full bg-red-900 hover:bg-red-300 hover:cursor-pointer p-0.5 text-center text-white ${showFinal ? 'block' : 'hidden'}`}>
+        <Link href={'/mining/finish'} className={`h-[5%] w-full bg-cyan-500 hover:bg-cyan-300 hover:cursor-pointer p-0.5 text-center text-white ${showFinal ? 'block' : 'hidden'}`}>
           Finish
         </Link>
       </div>

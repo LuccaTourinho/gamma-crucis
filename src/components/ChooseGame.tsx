@@ -3,7 +3,7 @@ import Game from './Game'
 
 export default function ChooseGame() {
   return (
-    <div className='flex flex-col items-center w-[1440px] h-full bg-[#011126] p-6 rounded-xl'>
+    <div className='flex flex-col items-center w-[1440px] h-full bg-green-600 p-6 rounded-xl'>
       <h1 className='text-3xl font-bold text-white'>Choose your Game</h1>
       <p className="text-white whitespace-pre-wrap text-justify ">
       In the game you will be in the role of city mayor and {"\n"}

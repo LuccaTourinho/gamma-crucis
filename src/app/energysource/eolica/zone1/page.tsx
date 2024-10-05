@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Page() {
   return (
     <main className="w-screen h-screen flex justify-center items-center p-20 bg-white">
-      <div className='w-full h-full bg-[#011126] p-6 overflow-y-auto flex flex-col justify-start'>
+      <div className='w-full h-full bg-green-600 p-6 overflow-y-auto flex flex-col justify-start'>
         <Link
           href={"https://www.eia.gov/energyexplained/wind/wind-energy-and-the-environment.php"}
           target="_blank" 

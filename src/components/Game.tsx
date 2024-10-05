@@ -19,7 +19,7 @@ const Game: React.FunctionComponent<IGameProps> = (props) => {
         md:w-[250px] md:h-[150px]
         lg:w-[250px] lg:h-[300px]
         2xl:w-[300px] xl:h-[500px] 
-        bg-[#8C0303] hover:bg-[#F23E2E] text-white 
+        bg-cyan-500 hover:bg-cyan-300 text-white 
         rounded-md overflow-hidden hover:cursor-pointer
         hover:scale-110 transition-all duration-300
       `}>

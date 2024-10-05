@@ -70,7 +70,7 @@ export default function WatterPoulution() {
     };
 
   return (
-    <div className='flex flex-col items-center w-[1440px] h-full bg-[#011126] p-6 rounded-xl'>
+    <div className='flex flex-col items-center w-[1440px] h-full bg-green-600 p-6 rounded-xl'>
       {
         !gameover ? (
           <>
