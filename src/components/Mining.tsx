@@ -169,7 +169,7 @@ export default function Mining() {
           className={`w-full h-full bg-orange-500 flex flex-col items-center justify-center hover:cursor-pointer`} 
           onClick={updateIron}
         >
-            <p className='text-xs'>Taxes gain</p>
+            <p className='text-xs'>Taxes gain:</p>
             <p className='text-xs'>$ 50.000</p>
             <h1 className='text-xl font-bold'>Iron</h1>
             <p className='text-xs'>{iron.on ? 'On' : 'Off'}</p>
@@ -178,7 +178,7 @@ export default function Mining() {
           className={`w-full h-full bg-slate-400 flex flex-col items-center justify-center hover:cursor-pointer`}
           onClick={updateLithium}
         >
-          <p className='text-xs'>Taxes gain</p>
+          <p className='text-xs'>Taxes gain:</p>
           <p className='text-xs'>$ 90.000</p>
           <h1 className='text-xl font-bold'>Lithium</h1>
           <p className='text-xs'>{lithium.on ? 'On' : 'Off'}</p>
@@ -187,7 +187,7 @@ export default function Mining() {
           className='w-full h-full bg-blue-500 flex flex-col items-center justify-center hover:cursor-pointer'
           onClick={updateNiobio}  
         >
-          <p className='text-xs'>Taxes gain</p>
+          <p className='text-xs'>Taxes gain:</p>
           <p className='text-xs'>$ 150.000</p>
           <h1 className='text-xl font-bold'>Niobium</h1>
           <p className='text-xs'>{niobio.on ? 'On' : 'Off'}</p>
@@ -196,7 +196,7 @@ export default function Mining() {
           className='w-full h-full bg-yellow-400 flex flex-col items-center justify-center hover:cursor-pointer'
           onClick={updateGold}  
         >
-          <p className='text-xs'>Taxes gain</p>
+          <p className='text-xs'>Taxes gain:</p>
           <p className='text-xs'>$ 200.000</p>
           <h1 className='text-xl font-bold'>Gold</h1>
           <p className='text-xs'>{gold.on ? 'On' : 'Off'}</p>
@@ -208,7 +208,7 @@ export default function Mining() {
         <p>Total Taxes Revenue: $ {totalTaxes}</p>
         <p>Number of contamined by toxic metals: {contamination}</p>
         <p>Probability of environmental disaster: {naturalDisaster}%</p>
-        <p>Environment Fiscalization</p>
+        <p>Environment Fiscalization:</p>
         <div className='flex flex-row h-[5%] w-full'>
           <div className='w-full h-full '>
               <div className='text-xs w-full h-full flex items-center justify-center  border-2 border-black'>Level</div>
