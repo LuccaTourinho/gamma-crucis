@@ -108,7 +108,8 @@ export default function WatterPoulution() {
             target="_blank" 
             rel="noopener noreferrer"
           >
-            <p className='text-white whitespace-pre-wrap text-justify overflow-y-auto'>
+            <div className='w-full h-full p-2 flex flex-col items-center justify-start overflow-y-auto'>
+            <p className='text-white whitespace-pre-wrap text-justify'>
             Sanitation is extremely important for environmental conservation. {'\n'}
             Water sources are essential for us to have a good quality of life. {'\n'}
             Through them, we get water to drink and use in our main daily activities. {'\n'}
@@ -121,6 +122,7 @@ export default function WatterPoulution() {
             by the population untreated.{'\n'}
             <span className='uppercase'>Click here to know more.</span>
           </p>
+            </div>
           </Link>
         )
       }
