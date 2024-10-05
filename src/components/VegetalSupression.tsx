@@ -28,6 +28,10 @@ export default function VegetalSupression() {
     updatedTempetureIncrease();
   }, [trees, tempeture]);
 
+  const decimal = (number: number) => {
+    return number.toFixed(2).replace(/\.00$/, '');
+  }
+
   return (
     <div className='flex flex-col items-center w-[1440px] h-full bg-green-600 p-6 rounded-xl'>
       {
@@ -55,7 +59,7 @@ export default function VegetalSupression() {
             
             <p className="text-white whitespace-pre-wrap text-justify">
             Killed animals: {deathValue}{'\n'}
-            Temperature increase: {tempetureIncrease}°C{'\n\n'}
+            Temperature increase: {decimal(tempetureIncrease)}°C{'\n\n'}
 
             The conservation of forest areas is extremely important for human {'\n'}
             and animal health and for the balance of the entire ecosystem on the planet. {'\n'}
