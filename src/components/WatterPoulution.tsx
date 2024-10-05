@@ -75,7 +75,7 @@ export default function WatterPoulution() {
         !gameover ? (
           <>
           <div className='flex flex-col items-center w-full p-3'>
-            <h1 className='text-xs font-bold text-white'>Sanitation</h1>
+            <h1 className='text-xs font-bold text-white'>SANITATION</h1>
             <h1 className='text-xs font-bold text-white'>Money: $ {money}</h1>
             <h1 className='text-xs font-bold text-white'>Water Quality: {waterQuality}</h1>
             <h1 className='text-xs font-bold text-white'>Cases of leptospirosis and cholera: {death}</h1>
@@ -87,7 +87,7 @@ export default function WatterPoulution() {
             <button 
               onClick={handleToggleOn}  // Chama a função que alterna `on`
               className={`text-sm font-bold text-white p-2 rounded-md transition-all duration-300 
-                ${on ? 'bg-red-600 hover:scale-110' : 'bg-green-600 hover:scale-110'}`}>
+                ${on ? 'bg-red-600 hover:scale-110' : 'bg-cyan-500 hover:scale-110'}`}>
               {on ? 'Turn Off sewage treatment' : 'Turn On sewage treatment'}
             </button>
           </div>
