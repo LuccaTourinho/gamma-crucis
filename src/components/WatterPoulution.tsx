@@ -14,7 +14,7 @@ export default function WatterPoulution() {
     money, updateMoney, 
     quality, updateQuality,
     death,  
-    days, daysWithOutTreatment } = useWatter()
+    days, daysWithOutTreatment, maximum, } = useWatter()
     const [daysTreatment, setDaysTreatment] = React.useState<number>(0);
     const [showMessage, setShowMessage] = React.useState<boolean>(false);
     const [messageTime, setMessageTime] = React.useState<number>(0);
@@ -81,6 +81,7 @@ export default function WatterPoulution() {
             <h1 className='text-xs font-bold text-white'>Cases of leptospirosis and cholera: {death}</h1>
             <h1 className='text-xs font-bold text-white'>Days: {days}</h1>
             <h1 className='text-xs font-bold text-white'>Days without sewage treatment: {daysWithOutTreatment}</h1>
+            <p className={`text-xs font-bold text-white ${maximum ? 'bold' : 'hidden'}`}>All the city was contaminated</p>
             <p className={`text-xs font-bold text-white ${showMessage ? 'bold' : 'hidden'}`}>
             Congratulations: You haveve earned a $40,000.00 bonus for saving on healthcare costs after leaving your sewage treatment plant on for 30 consecutive days.
             </p>
