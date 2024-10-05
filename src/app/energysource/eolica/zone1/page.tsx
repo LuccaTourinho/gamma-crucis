@@ -19,9 +19,9 @@ export default function Page() {
         <span className='font-bold'>Total cost for potential zone limit:</span> $ 3,000,000,000 {'\n'}{'\n'}
         <span className='font-bold uppercase'>Impacts:</span>{'\n'}
 
-        •	Your project caused psychological distress to residents due to noise pollution of <span className='font-bold'>80 decibels</span>, as the wind generators were built 150 meters (492 ft) away from homes. {'\n'} 
-        •	Deforestation and loss of biodiversity. {'\n'}
-        •	Bird deaths from hitting the blades {'\n'}
+        •	Your project caused <span className='font-bold'>psychological distress</span> to residents due to noise pollution of <span className='font-bold'>80 decibels (equivalent a hairdryer noise)</span>, as the wind generators were built 150 meters (492 ft) away from homes; {'\n'} 
+        •	<span className='font-bold'>Deforestation and loss of biodiversity;{'\n'}</span>
+        •	<span className='font-bold'>Bird deaths from hitting the blades. {'\n'}</span>
         CLICK HERE TO KNOW MORE
         </p>
         </Link>

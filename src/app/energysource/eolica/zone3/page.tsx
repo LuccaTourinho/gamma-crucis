@@ -18,9 +18,9 @@ export default function Page() {
         <span className='font-bold'>Total cost for demand:</span> $1,320,000,000 {'\n'}{'\n'}
         <span className='font-bold uppercase'>Impacts:</span>{'\n'}
 
-        •	Your project complied with the legislation and built the power plant 1.5 km (4921 ft) away from the residences, noise pollution is not reaching the residences, avoiding psychological problems for residents due to noise pollution.{'\n'} 
-        •	Deforestation and loss of biodiversity.{'\n'}
-        •	Bird deaths from hitting the blades{'\n'}
+        •	Your project complied with the legislation and built the power plant 1.5 km (4921 ft) away from the residences, <span className='font-bold'>noise pollution is not reaching the residences, avoiding psychological problems for residents due to noise pollution;{'\n'} </span>
+        •	<span className='font-bold'>Deforestation and loss of biodiversity;{'\n'}</span>
+        •	<span className='font-bold'>Bird deaths from hitting the blades.{'\n'}</span>
         CLICK HERE TO KNOW MORE
         </p>
         </Link>

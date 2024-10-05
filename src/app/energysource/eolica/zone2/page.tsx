@@ -19,9 +19,9 @@ export default function Page() {
         <span className='font-bold'>Total cost for potential zone limit:</span> $2,160,000,000{'\n'}{'\n'}
         <span className='font-bold uppercase'>Impacts:</span>{'\n'}
 
-        •	The project complied with the legislation and built the power plant 700 meters (2296 ft) away from the residences, generating noise pollution of 30 decibels, avoiding psychological problems for residents due to noise pollution.{'\n'} 
-        •	<span className='font-bold'>This zone is on a bird migration route, there will be high bird mortality due to collisions with the blades.</span>{'\n'}
-        •	Deforestation and loss of biodiversity.{'\n'}
+        •	The project complied with the legislation and built the power plant 700 meters (2296 ft) away from the residences, <span className='font-bold'>generating noise pollution of 30 decibels(equivalent a whispering), avoiding psychological problems for residents due to noise pollution;{'\n'} </span>
+        •	<span className='font-bold'>This zone is on a bird migration route, there will be high bird mortality due to collisions with the blades;</span>{'\n'}
+        •	<span className='font-bold'>Deforestation and loss of biodiversity.{'\n'}</span>
         CLICK HERE TO KNOW MORE
         </p>
         </Link>
