@@ -1,7 +1,7 @@
 import React from 'react'
 import Houses from './Houses'
 import Roads from './Roads'
-// Ola
+
 export default function City() {
   return (
     <div className='flex bg-white h-[70%]'>
