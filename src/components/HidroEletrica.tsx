@@ -65,7 +65,7 @@ export default function HidroEletrica() {
           </div>
           <div className='w-[20%] h-full flex flex-col items-center justify-center'>
             <div className='w-full h-full bg-blue-400'></div>
-            <div className='relative w-full h-[5%] md:h-[25%] lg:h-[35%] xl:h-[45%] 2xl:h-[53%] flex items-center justify-center bg-blue-400'>
+            <div className='relative w-full h-[5%] md:h-[25%] lg:h-[35%] xl:h-[45%] 2xl:h-[53%] flex items-center justify-center bg-yellow-950'>
               <Image src={currentImage} alt='hidroestação' fill style={{ objectFit: 'contain' }} />
             </div>
             <button className={`w-full h-[5%] p-0.5 bg-cyan-500 hover:bg-cyan-300 hover:cursor-pointer text-xs ${cuttedTrees <100 ? 'hidden' : ''}`} onClick={() => setShowFinal(true)}>
