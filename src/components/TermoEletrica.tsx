@@ -103,7 +103,7 @@ export default function TermoEletrica() {
                     <span className='font-bold'>Total Cost: </span> $893,200,000{'\n'}
                     {'\n'}
                     <span className='font-bold uppercase'>Impacts:</span>{'\n'}
-                    * <span className='font-bold'>Deforested area:</span> 1,20 km²(0,46 mi²) = 168 football pitch;{'\n'}
+                    * <span className='font-bold'>Deforested area:</span> 1,20 km²(0,46 mi²) = 168 football pitches;{'\n'}
                     * The plant will emit <span className='font-bold'>530.2 tons of polluting gases per hour</span>, such as Carbon Dioxide (CO2), Carbon Monoxide (CO) and Nitrogen Oxides;{'\n'}
                     * <span className='font-bold'>Respiratory problems in the population due to the gases;{'\n'}</span>
                     * The gases emitted will come into contact with water in the atmosphere, thus <span className='font-bold'>leading to the phenomenon of acid rain. {'\n'}</span> 
