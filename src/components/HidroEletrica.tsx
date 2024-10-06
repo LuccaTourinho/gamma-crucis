@@ -93,6 +93,7 @@ export default function HidroEletrica() {
           </div>
           </>
         ) : (
+          <div>
           <Link 
             href={'https://www.eia.gov/energyexplained/hydropower/hydropower-and-the-environment.php'}
             target='_blank'
@@ -114,6 +115,26 @@ export default function HidroEletrica() {
                 </p>
             </div>
           </Link>
+          <Link 
+            href={'https://www.energy.gov/eere/water/benefits-hydropower#:'}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='w-full h-full'
+          >
+            <div className='w-full h-full bg-blue-500 p-6 overflow-y-auto flex flex-col justify-start'>
+                <p className="text-white whitespace-pre-wrap text-justify">
+                {'\n'}
+                <span className='font-bold uppercase'>Impacts:</span>{'\n'}
+                * <span className='font-bold'>Deforested area:</span> 281 km²(108.4 mi²) = 39,355 football pitch;{'\n'}
+                * <span className='font-bold'>Flooding of riverside communities;{'\n'}</span>
+                * <span className='font-bold'>High interference in the reproductive cycle of fish;{'\n'}</span>
+                * <span className='font-bold'>Loss of fauna biodiversity.{'\n'}</span>
+                CLICK HERE TO KNOW MORE
+                </p>
+            </div>
+          </Link>
+          </div>
+          
         )
       }
     </div>

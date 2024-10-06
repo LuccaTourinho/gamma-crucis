@@ -89,13 +89,14 @@ export default function TermoEletrica() {
                     </div>
                 </>
             ) : (
+                <div className='w-full h-full flex flex-col bg-red-600'>
                 <Link 
                     href={'https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-016-4008-7'}
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className='w-full h-full'
+                    className='w-full h-full '
                 >
-                    <div className='w-full h-full bg-red-600 p-6 overflow-y-auto flex flex-col justify-start'>
+                    <div className='w-full h-full p-6 overflow-y-auto flex flex-col justify-start'>
                     <p className="text-white whitespace-pre-wrap text-justify">
                     <span className='font-bold'>Required Demand:</span> 1,100MW{'\n'}
                     <span className='font-bold'>Production Cost:</span> ($812/KW){'\n'}
@@ -105,11 +106,29 @@ export default function TermoEletrica() {
                     * <span className='font-bold'>Deforested area:</span> 1,20 km²(0,46 mi²) = 168 football pitch;{'\n'}
                     * The plant will emit <span className='font-bold'>530.2 tons of polluting gases per hour</span>, such as Carbon Dioxide (CO2), Carbon Monoxide (CO) and Nitrogen Oxides;{'\n'}
                     * <span className='font-bold'>Respiratory problems in the population due to the gases;{'\n'}</span>
-                    *The gases emitted will come into contact with water in the atmosphere, thus <span className='font-bold'>leading to the phenomenon of acid rain. {'\n'}</span> 
-                    CLICK HERE TO KNOW MORE
+                    * The gases emitted will come into contact with water in the atmosphere, thus <span className='font-bold'>leading to the phenomenon of acid rain. {'\n'}</span> 
+                    CLICK HERE TO KNOW MORE{'\n\n\n'}
                     </p>
                 </div>
                 </Link>
+                <Link 
+                    href={'https://thegioixecau.vn/thermal-power-plant-benefits-advantages-disadvantages-and-solutions#:'}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className='w-full h-full'
+                >
+                    <div className='w-full h-full bg-red-600 p-6 overflow-y-auto flex flex-col justify-start'>
+                    <p className="text-white whitespace-pre-wrap text-justify">
+                    <span className='font-bold'>BENEFITS:</span>{'\n'}
+                    * <span className='font-bold'>Energy source that serves regions that have no other options;{'\n'}</span>
+                    * <span className='font-bold'>Construction faster than hydroelectric plants;{'\n'}</span>
+                    * <span className='font-bold'>Installations can be made close to consumption regions.{'\n'}</span>
+                    CLICK HERE TO KNOW MORE{'\n\n\n'}
+                    </p>
+                </div>
+                </Link>
+                </div>
+                
             )
         }
         
