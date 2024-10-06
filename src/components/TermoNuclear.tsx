@@ -112,7 +112,7 @@ export default function TermoNuclear() {
                     <span className='font-bold'>BENEFITS:</span>{'\n'}
                     * <span className='font-bold'>No use of fossil fuels, which means there are no emissions of the pollutants responsible for the greenhouse effect or acid rains;{'\n'}</span>
                     * <span className='font-bold'>The plants can be installed close to urban centers, as they operate with modern safety systems, posing minimal risks;{'\n'}</span>
-                    * <span className='font-bold'>Concentration on energy generation, the focus is more on efficient energy production.{'\n'}</span>
+                    * <span className='font-bold'>High energy density of fuel (uranium).{'\n'}</span>
                     </p>
                 </Link>
                 

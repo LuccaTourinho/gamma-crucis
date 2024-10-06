@@ -99,7 +99,7 @@ export default function HidroEletrica() {
             rel='noopener noreferrer'
             className='w-full h-full'
           >
-            <div className='w-full h-full bg-blue-400 p-6 overflow-y-auto flex flex-col justify-start'>
+            <div className='w-full h-full bg-blue-500 p-6 overflow-y-auto flex flex-col justify-start'>
                 <p className="text-white whitespace-pre-wrap text-justify">
                 <span className='font-bold'>Required Demand:</span> 1,100MW{'\n'}
                 <span className='font-bold'>Construction costs:</span> ($1500/KW){'\n'}
