@@ -31,6 +31,9 @@ export default function Page() {
           className='w-full h-full hover:cursor-pointer text-white'>
           SEE VIDEO(Portuguese language)
         </Link>
+        
+
+
       </div>
     </main>
   )

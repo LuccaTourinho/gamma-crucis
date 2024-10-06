@@ -107,10 +107,17 @@ export default function TermoNuclear() {
                     * <span className='font-bold uppercase'>Deforested area:</span> 3,3 km²(1,27 mi²) = 462 football pitch;{'\n'}
                     * <span className='font-bold'>Risk of radioactive contamination due to nuclear accident;{`\n`}</span>
                     * Its plant will produce <span className='font-bold'>134,000 liters(35,399 gal) of Uranium-235 radioactive waste (670 barrels) annually</span>, which will have to be stored for <span className='font-bold'>8,000 years.</span>{`\n`}
-                    CLICK HERE TO KNOW MORE
+                    CLICK HERE TO KNOW MORE{'\n\n'}{'\n\n'}
+                
+                    <span className='font-bold'>BENEFITS:</span>{'\n'}
+                    * <span className='font-bold'>No use of fossil fuels, which means there are no emissions of the pollutants responsible for the greenhouse effect or acid rains;{'\n'}</span>
+                    * <span className='font-bold'>The plants can be installed close to urban centers, as they operate with modern safety systems, posing minimal risks;{'\n'}</span>
+                    * <span className='font-bold'>Concentration on energy generation, the focus is more on efficient energy production.{'\n'}</span>
                     </p>
                 </Link>
+                
             )
+            
         }
       
     </div>
