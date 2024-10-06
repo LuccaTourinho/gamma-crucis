@@ -93,7 +93,7 @@ export default function HidroEletrica() {
           </div>
           </>
         ) : (
-          <div>
+          <div className='w-full h-full flex flex-col bg-blue-500'>
           <Link 
             href={'https://www.eia.gov/energyexplained/hydropower/hydropower-and-the-environment.php'}
             target='_blank'
@@ -111,7 +111,8 @@ export default function HidroEletrica() {
                 * <span className='font-bold'>Flooding of riverside communities;{'\n'}</span>
                 * <span className='font-bold'>High interference in the reproductive cycle of fish;{'\n'}</span>
                 * <span className='font-bold'>Loss of fauna biodiversity.{'\n'}</span>
-                CLICK HERE TO KNOW MORE
+                CLICK HERE TO KNOW MORE{'\n\n\n'}
+                
                 </p>
             </div>
           </Link>
@@ -123,17 +124,16 @@ export default function HidroEletrica() {
           >
             <div className='w-full h-full bg-blue-500 p-6 overflow-y-auto flex flex-col justify-start'>
                 <p className="text-white whitespace-pre-wrap text-justify">
-                {'\n'}
-                <span className='font-bold uppercase'>Impacts:</span>{'\n'}
-                * <span className='font-bold'>Deforested area:</span> 281 km²(108.4 mi²) = 39,355 football pitch;{'\n'}
-                * <span className='font-bold'>Flooding of riverside communities;{'\n'}</span>
-                * <span className='font-bold'>High interference in the reproductive cycle of fish;{'\n'}</span>
-                * <span className='font-bold'>Loss of fauna biodiversity.{'\n'}</span>
-                CLICK HERE TO KNOW MORE
-                </p>
+                <span className='font-bold'>BENEFITS:</span>{'\n'}
+                * <span className='font-bold'>Hydropower is fueled by water, making it a clean source of energy;{'\n'}</span>
+                * <span className='font-bold'>Hydropower plants can generate power to the grid immediately, they provide essential backup power during major electricity outages or disruptions;{'\n'}</span>
+                * <span className='font-bold'>Hydropower provides benefits beyond electricity generation by providing flood control, irrigation support, and clean drinking water.{'\n'}</span>
+                CLICK HERE TO KNOW MORE{'\n\n\n'}
+               </p>
             </div>
           </Link>
           </div>
+          
           
         )
       }
