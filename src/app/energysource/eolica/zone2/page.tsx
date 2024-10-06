@@ -5,6 +5,7 @@ export default function Page() {
   return (
     <main className="w-screen h-screen flex justify-center items-center p-20 bg-white">
       <div className='w-full h-full bg-green-600 p-6 overflow-y-auto flex flex-col justify-start'>
+        <>
         <Link
           href={"https://www.eia.gov/energyexplained/wind/wind-energy-and-the-environment.php"}
           target="_blank" 
@@ -25,6 +26,24 @@ export default function Page() {
         CLICK HERE TO KNOW MORE
         </p>
         </Link>
+
+        <Link
+          href={"https://www.energysage.com/about-clean-energy/wind/pros-cons-wind-energy/"}
+          target="_blank" 
+          rel="noopener noreferrer"
+          className='w-full h-full hover:cursor-pointer'
+        >
+          <p className="text-white whitespace-pre-wrap text-justify">
+          {'\n\n'}<span className='font-bold'>BENEFITS:</span>{'\n'}
+          • <span className='font-bold'>Renewable & clean source of energy;{'\n'}</span>      
+          •	<span className='font-bold'>Low operating costs;{'\n'}</span>
+          •	<span className='font-bold'>Efficient use of land space. {'\n'}</span> 
+          CLICK HERE TO KNOW MORE       
+        </p>
+        </Link>        
+          
+        </>
+        
       </div>
     </main>
   )
