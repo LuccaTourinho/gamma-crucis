@@ -101,7 +101,7 @@ export default function TermoNuclear() {
                     target="_blank" 
                     rel="noopener noreferrer"
                 >
-                    <p className='text-white whitespace-pre-wrap text-justify overflow-y-auto'>
+                    <p className='text-black whitespace-pre-wrap text-justify overflow-y-auto'>
                     <span className='font-bold'>Required Demand:</span> 1,100MW {'\n'}
                     <span className='font-bold'>Production Cost:</span> ($ 5,500/KW) {'\n'}
                     <span className='font-bold'>Total Cost:</span> $ 6,050,000,000 {'\n'}{'\n'}
@@ -119,7 +119,7 @@ export default function TermoNuclear() {
                     target="_blank" 
                     rel="noopener noreferrer"
                 >
-                    <p className='text-white whitespace-pre-wrap text-justify overflow-y-auto'>                                                        
+                    <p className='text-black whitespace-pre-wrap text-justify overflow-y-auto'>                                                        
                     <span className='font-bold'>BENEFITS:</span>{'\n'}
                     * <span className='font-bold'>No use of fossil fuels, which means there are no emissions of the pollutants responsible for the greenhouse effect or acid rains;{'\n'}</span>
                     * <span className='font-bold'>The plants can be installed close to urban centers, as they operate with modern safety systems, posing minimal risks;{'\n'}</span>
