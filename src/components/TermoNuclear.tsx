@@ -25,6 +25,7 @@ export default function TermoNuclear() {
     const [showFinal, setShowFinal] = React.useState(false);
 
   return (
+
     <div className='flex justify-center w-[1440px] border-2 border-black h-full'>
         {
             !showFinal ? (
@@ -93,6 +94,7 @@ export default function TermoNuclear() {
                     </div>
                 </>
             ) : (
+                <div className='h-full w-full flex flex-col'>
                 <Link 
                     href={'https://www.eia.gov/energyexplained/nuclear/nuclear-power-and-the-environment.php'}
                     className='w-full h-full bg-yellow-500 p-6'
@@ -109,12 +111,24 @@ export default function TermoNuclear() {
                     * Its plant will produce <span className='font-bold'>134,000 liters(35,399 gal) of Uranium-235 radioactive waste (670 barrels) annually</span>, which will have to be stored for <span className='font-bold'>8,000 years.</span>{`\n`}
                     CLICK HERE TO KNOW MORE{'\n\n'}{'\n\n'}
                 
+                    </p>
+                </Link>
+                <Link 
+                    href={'https://earth.org/the-advantages-and-disadvantages-of-nuclear-energy/'}
+                    className='w-full h-full bg-yellow-500 p-6'
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    <p className='text-white whitespace-pre-wrap text-justify overflow-y-auto'>                                                        
                     <span className='font-bold'>BENEFITS:</span>{'\n'}
                     * <span className='font-bold'>No use of fossil fuels, which means there are no emissions of the pollutants responsible for the greenhouse effect or acid rains;{'\n'}</span>
                     * <span className='font-bold'>The plants can be installed close to urban centers, as they operate with modern safety systems, posing minimal risks;{'\n'}</span>
                     * <span className='font-bold'>High energy density of fuel (uranium).{'\n'}</span>
+                    CLICK HERE TO KNOW MORE
                     </p>
                 </Link>
+                </div>
+                
                 
             )
             
