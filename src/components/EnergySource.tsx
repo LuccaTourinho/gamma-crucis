@@ -10,22 +10,22 @@ export default function EnergySource() {
       <div className='flex flex-row w-full h-full'>
         <Link href={'/energysource/termoeletrica'} className='w-[25%] h-full'>
           <div className='w-full h-full border-r-2 border-black bg-red-600 flex flex-col items-center justify-center hover:bg-red-300 transition-all duration-300'>
-            <h1 className='text-xs font-bold uppercase text-black'>Thermo</h1>
+            <h1 className='text-2xl font-bold uppercase text-black'>Thermo</h1>
           </div>
         </Link>
         <Link href={'/energysource/hidroeletrica'} className='w-[25%] h-full'>
           <div className='w-full h-full border-r-2 border-black bg-blue-500 flex flex-col items-center justify-center hover:bg-blue-300 transition-all duration-300'>
-            <h1 className='text-xs font-bold uppercase text-black'>Hydro</h1>
+            <h1 className='text-2xl font-bold uppercase text-black'>Hydro</h1>
           </div>
         </Link>
         <Link href={'/energysource/termonuclear'} className='w-[25%] h-full'>
           <div className='w-full h-full border-r-2 border-black bg-yellow-400 flex flex-col items-center justify-center hover:bg-yellow-200 transition-all duration-300'>
-            <h1 className='text-xs font-bold uppercase text-black'>Nuclear</h1>
+            <h1 className='text-2xl font-bold uppercase text-black'>Nuclear</h1>
           </div>
         </Link>
         <Link href={'/energysource/eolica'} className='w-[25%] h-full'>
           <div className='w-full h-full border-black bg-green-500 flex flex-col items-center justify-center hover:bg-green-300 transition-all duration-300'>
-            <h1 className='text-xs font-bold uppercase text-black'>Wind</h1>
+            <h1 className='text-2xl font-bold uppercase text-black'>Wind</h1>
           </div>
         </Link>
       </div>
