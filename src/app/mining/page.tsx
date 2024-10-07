@@ -42,7 +42,9 @@ export default function Page() {
             to create new mines for extracting iron ore, lithium, niobium and gold. {'\n'} 
             As the manager, you must decide how many mines will be active {'\n'}
             and what their environmental monitoring levels will be. {'\n'}
-            YOUR CHOICES HAVE CONSEQUENCES! {'\n'}
+            <span className='font-bold text-yellow-300'>YOUR CHOICES HAVE CONSEQUENCES !{'\n'}</span>
+
+            
             </p>
             <button className='text-3xl p-2 bg-cyan-500 hover:bg-cyan-300 text-white rounded-md mt-10' onClick={startGame}>
               Play

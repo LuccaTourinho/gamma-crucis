@@ -38,10 +38,10 @@ export default function VegetalSupression() {
         !endGame ? (
           <>
             <div className='flex flex-col items-center w-full border-2 border-black rounded-md p-3 bg-white'>
-            <h1 className='text-xs font-bold text-black uppercase'>Deforestation control</h1>
-            <h1 className='text-xs font-bold text-black'>Tempeture: {tempeture}°C</h1>
-            <h1 className='text-xs font-bold text-black'>Taxes Revenue: $ {money}</h1>
-            <button onClick={() => setEndGame(true)} className='text-xs font-bold text-white bg-cyan-500 hover:bg-cyan-300 p-0.5'>
+            <h1 className='text-2xl font-bold text-black uppercase'>Deforestation control</h1>
+            <h1 className='text-xl font-bold text-black'>Tempeture: {tempeture}°C</h1>
+            <h1 className='text-xl font-bold text-black'>Taxes Revenue: $ {money}</h1>
+            <button onClick={() => setEndGame(true)} className='text-lg font-bold text-white bg-cyan-500 hover:bg-cyan-300 p-0.5'>
               Finish
             </button>
           </div>
@@ -57,15 +57,17 @@ export default function VegetalSupression() {
             rel="noopener noreferrer">
           <div className='w-full h-full p-2 flex flex-col items-center justify-start overflow-y-auto'>
             
-            <p className="text-white whitespace-pre-wrap text-justify">
-            Killed animals: {deathValue}{'\n'}
-            Temperature increase: {decimal(tempetureIncrease)}°C{'\n\n'}
+            <p className="text-2xl text-white whitespace-pre-wrap text-justify">
+            {'\n\n\n'}
+            {'\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t'}IMPACTS:{'\n\n\n'}
+            Killed animals: <span className='text-2xl font-bold text-yellow-300'>{deathValue}{'\n'}</span>
+            Temperature increase: <span className='text-2xl font-bold text-yellow-300'>{decimal(tempetureIncrease)}°C{'\n\n'}</span>
 
             The conservation of forest areas is extremely important for human {'\n'}
             and animal health and for the balance of the entire ecosystem on the planet. {'\n'}
             Deforestation causes many problems, including the formation of heat islands, {'\n'}
             which is why well-managed cities always seek to bring more trees to large urban centers.{'\n'}
-            CLICK HERE TO KNOW MORE
+            <span className='text-xl font-bold text-cyan-300'>CLICK HERE TO KNOW MORE</span>
             </p>
           </div>
           </Link>

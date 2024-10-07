@@ -21,7 +21,8 @@ export default function Page() {
             consequences of their actions, which can directly or indirectly {'\n'}
             contaminate thousands of people who live near the mines through  {'\n'}
             untreated discarded waste. {'\n'}
-            CLICK HERE TO KNOW MORE {'\n'}
+            <span className='text-xl font-bold text-cyan-300'>CLICK HERE TO KNOW MORE{'\n'}</span>
+
             </p>
           </div>
           </Link>
