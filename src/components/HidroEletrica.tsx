@@ -65,10 +65,10 @@ export default function HidroEletrica() {
           </div>
           <div className='w-[20%] h-full flex flex-col items-center justify-center'>
             <div className='w-full h-full bg-blue-400'></div>
-            <div className='relative w-full h-[5%] md:h-[25%] lg:h-[35%] xl:h-[45%] 2xl:h-[53%] flex items-center justify-center bg-yellow-950'>
+            <div className='relative w-full h-[5%] md:h-[25%] lg:h-[35%] xl:h-[45%] 2xl:h-[65%] flex items-center justify-center bg-yellow-950'>
               <Image src={currentImage} alt='hidroestação' fill style={{ objectFit: 'contain' }} />
             </div>
-            <button className={`w-full h-[5%] p-0.5 bg-cyan-500 hover:bg-cyan-300 hover:cursor-pointer text-xs ${cuttedTrees <100 ? 'hidden' : ''}`} onClick={() => setShowFinal(true)}>
+            <button className={`text-2xl w-full h-[5%] p-0.5 bg-cyan-500 hover:bg-cyan-300 hover:cursor-pointer ${cuttedTrees <100 ? 'hidden' : ''}`} onClick={() => setShowFinal(true)}>
               Finish
             </button>
           </div>
@@ -100,18 +100,18 @@ export default function HidroEletrica() {
             rel='noopener noreferrer'
             className='w-full h-full'
           >
-            <div className='w-full h-full bg-blue-500 p-6 overflow-y-auto flex flex-col justify-start'>
+            <div className='text-2xl w-full h-full bg-blue-500 p-6 overflow-y-auto flex flex-col justify-start'>
                 <p className="text-white whitespace-pre-wrap text-justify">
                 <span className='font-bold'>Required Demand:</span> 1,100MW{'\n'}
                 <span className='font-bold'>Construction costs:</span> ($1500/KW){'\n'}
                 <span className='font-bold'>Total Cost:</span> $1,375,000,000{'\n'}
                 {'\n'}
                 <span className='font-bold uppercase'>Impacts:</span>{'\n'}
-                * <span className='font-bold'>Deforested area:</span> 281 km²(108.4 mi²) = 39,355 football pitches;{'\n'}
+                * Deforested area:<span className='font-bold text-yellow-400'> 281 km²(108.4 mi²) = 39,355 football pitches</span>;{'\n'}
                 * <span className='font-bold'>Flooding of riverside communities;{'\n'}</span>
-                * <span className='font-bold'>High interference in the reproductive cycle of fish;{'\n'}</span>
+                * <span className='font-bold text-yellow-400'>High interference in the reproductive cycle of fish;{'\n'}</span>
                 * <span className='font-bold'>Loss of fauna biodiversity.{'\n'}</span>
-                CLICK HERE TO KNOW MORE{'\n\n\n'}
+                  <span className='text-xl font-bold text-black'>CLICK HERE TO KNOW MORE </span>       
                 
                 </p>
             </div>
@@ -122,13 +122,14 @@ export default function HidroEletrica() {
             rel='noopener noreferrer'
             className='w-full h-full'
           >
-            <div className='w-full h-full bg-blue-500 p-6 overflow-y-auto flex flex-col justify-start'>
+            <div className='text-2xl w-full h-full bg-blue-500 p-6 overflow-y-auto flex flex-col justify-start'>
                 <p className="text-white whitespace-pre-wrap text-justify">
                 <span className='font-bold'>BENEFITS:</span>{'\n'}
                 * <span className='font-bold'>Hydropower is fueled by water, making it a clean source of energy;{'\n'}</span>
-                * <span className='font-bold'>Hydropower plants can generate power to the grid immediately, they provide essential backup power during major electricity outages or disruptions;{'\n'}</span>
-                * <span className='font-bold'>Hydropower provides benefits beyond electricity generation by providing flood control, irrigation support, and clean drinking water.{'\n'}</span>
-                CLICK HERE TO KNOW MORE{'\n\n\n'}
+                * <span className='font-bold'>Hydropower plants can generate power to the grid immediately, they provide {'\n'}  essential backup power during major electricity outages or disruptions;{'\n'}</span>
+                * <span className='font-bold'>Hydropower provides benefits beyond electricity generation by providing flood control,{'\n'}  irrigation support, and clean drinking water.{'\n'}</span>
+                  <span className='text-xl font-bold text-black'>CLICK HERE TO KNOW MORE </span>       
+        
                </p>
             </div>
           </Link>
