@@ -9,9 +9,9 @@ export default function Page() {
       <div className='flex flex-col items-center justify-center w-[1440px] border-2 border-black h-full text-white bg-green-600'>
       <div className={`flex flex-col items-center justify-start h-full text-center `}>
             <div className='flex flex-col items-center justify-center w-full h-[30%]'>
-                <h1 className='text-3xl font-bold text-red-900'>Warning!</h1>
+                <h1 className='text-3xl font-bold text-yellow-400'>Warning!</h1>
                 <p className={`text-2xl `}>
-                Due to the lack of oversight, one of the mines experienced a dam breach of tailings, which led to {'\n'}
+                Due to the lack of oversight, one of the mines experienced a {'\n'}dam breach of tailings, which led to {'\n'}
                 the complete contamination of the São Francisco River and resulted in the deaths of 30,000 people{'\n'}
                 and the mass mortality of numerous species of wildlife.{'\n'}
                 </p>

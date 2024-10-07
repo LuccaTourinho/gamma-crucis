@@ -36,7 +36,7 @@ export default function Page() {
           </MineProvider>
         ) : (
           <div className='flex flex-col items-center justify-center w-[1440px] bg-green-600 h-full text-white p-6'>
-            <p className='text-white whitespace-pre-wrap text-justify overflow-y-auto'>
+            <p className='text-2xl text-white whitespace-pre-wrap text-justify overflow-y-auto'>
             To diversify the city economy, {'\n'}
             the Ministry of Mines and Energy presented you with a project {'\n'} 
             to create new mines for extracting iron ore, lithium, niobium and gold. {'\n'} 
@@ -44,7 +44,7 @@ export default function Page() {
             and what their environmental monitoring levels will be. {'\n'}
             YOUR CHOICES HAVE CONSEQUENCES! {'\n'}
             </p>
-            <button className='p-2 bg-cyan-500 hover:bg-cyan-300 text-white rounded-md mt-10' onClick={startGame}>
+            <button className='text-3xl p-2 bg-cyan-500 hover:bg-cyan-300 text-white rounded-md mt-10' onClick={startGame}>
               Play
             </button>
           </div>
