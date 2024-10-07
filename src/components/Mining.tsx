@@ -169,41 +169,41 @@ export default function Mining() {
           className={`w-full h-full bg-orange-500 flex flex-col items-center justify-center hover:cursor-pointer`} 
           onClick={updateIron}
         >
-            <p className='text-xs'>Taxes gain:</p>
-            <p className='text-xs'>$ 50.000</p>
-            <h1 className='text-xl font-bold'>Iron</h1>
-            <p className='text-xs'>{iron.on ? 'On' : 'Off'}</p>
+            <p className='text-xl'>Taxes gain:</p>
+            <p className='text-xl'>$ 50.000</p>
+            <h1 className='text-2xl font-bold'>Iron</h1>
+            <p className='text-xl'>{iron.on ? 'On' : 'Off'}</p>
         </div>
         <div 
           className={`w-full h-full bg-slate-400 flex flex-col items-center justify-center hover:cursor-pointer`}
           onClick={updateLithium}
         >
-          <p className='text-xs'>Taxes gain:</p>
-          <p className='text-xs'>$ 90.000</p>
-          <h1 className='text-xl font-bold'>Lithium</h1>
-          <p className='text-xs'>{lithium.on ? 'On' : 'Off'}</p>
+          <p className='text-xl'>Taxes gain:</p>
+          <p className='text-xl'>$ 90.000</p>
+          <h1 className='text-2xl font-bold'>Lithium</h1>
+          <p className='text-xl'>{lithium.on ? 'On' : 'Off'}</p>
         </div>
         <div 
           className='w-full h-full bg-blue-500 flex flex-col items-center justify-center hover:cursor-pointer'
           onClick={updateNiobio}  
         >
-          <p className='text-xs'>Taxes gain:</p>
-          <p className='text-xs'>$ 150.000</p>
-          <h1 className='text-xl font-bold'>Niobium</h1>
-          <p className='text-xs'>{niobio.on ? 'On' : 'Off'}</p>
+          <p className='text-xl'>Taxes gain:</p>
+          <p className='text-xl'>$ 150.000</p>
+          <h1 className='text-2xl font-bold'>Niobium</h1>
+          <p className='text-xl'>{niobio.on ? 'On' : 'Off'}</p>
         </div>
         <div 
           className='w-full h-full bg-yellow-400 flex flex-col items-center justify-center hover:cursor-pointer'
           onClick={updateGold}  
         >
-          <p className='text-xs'>Taxes gain:</p>
-          <p className='text-xs'>$ 200.000</p>
-          <h1 className='text-xl font-bold'>Gold</h1>
-          <p className='text-xs'>{gold.on ? 'On' : 'Off'}</p>
+          <p className='text-xl'>Taxes gain:</p>
+          <p className='text-xl'>$ 200.000</p>
+          <h1 className='text-2xl font-bold'>Gold</h1>
+          <p className='text-xl'>{gold.on ? 'On' : 'Off'}</p>
         </div>
       </div>
-      <div className='w-full h-full bg-cyan-300 flex flex-col items-center justify-around px-0.5'>
-        <p className='text-lg font-bold uppercase'>Mining Control</p>
+      <div className='w-full h-full bg-cyan-300 flex flex-col items-center justify-around px-0.5 text-2xl'>
+        <p className='text-4xl font-bold uppercase'>Mining Control</p>
         <p>DAY: {days}</p>
         <p>TOTAL TAXES REVENUE: $ {totalTaxes}</p>
         <p>NUMBER OF CONTAMINED BY TOXIC METALS: {contamination}</p>
@@ -211,24 +211,24 @@ export default function Mining() {
         <p>ENVIRONMENT FISCALIZATION:</p>
         <div className='flex flex-row h-[5%] w-full'>
           <div className='w-full h-full '>
-              <div className='text-xs w-full h-full flex items-center justify-center  border-2 border-black'>Level</div>
-              <div className='text-xs w-full h-full flex items-center justify-center border-2 border-black'>$</div>
+              <div className='text-2xl w-full h-full flex items-center justify-center  border-2 border-black'>Level</div>
+              <div className='text-2xl w-full h-full flex items-center justify-center border-2 border-black'>$</div>
           </div>
           {[0, 1, 2, 3, 4, 5].map((nivel) => (
             <div key={nivel} className='w-full h-full'>
               <div 
-                className={`text-xs w-full h-full flex items-center justify-center cursor-pointer border-2 border-black ${selectedNivel === nivel ? 'bg-green-500' : 'bg-white'}`}
+                className={`text-2xl w-full h-full flex items-center justify-center cursor-pointer border-2 border-black ${selectedNivel === nivel ? 'bg-green-500' : 'bg-white'}`}
                 onClick={() => selectNivel(nivel)}
               >
                 {nivel}
               </div>
-              <div className={`text-xs w-full h-full flex items-center justify-center border-2 border-black ${selectedNivel === nivel ? 'bg-green-500' : 'bg-white'}`}>
+              <div className={`text-2xl w-full h-full flex items-center justify-center border-2 border-black ${selectedNivel === nivel ? 'bg-green-500' : 'bg-white'}`}>
                 {nivel === 0 ? '0' : `- ${nivel * 10000}`}
               </div>
             </div>
           ))}
         </div>
-        <Link href={'/mining/finish'} className={`h-[5%] w-full bg-cyan-500 hover:bg-cyan-300 hover:cursor-pointer p-0.5 text-center text-white ${showFinal ? 'block' : 'hidden'}`}>
+        <Link href={'/mining/finish'} className={`h-[5%] w-full bg-cyan-500 hover:bg-cyan-300 hover:cursor-pointer p-0.5 text-center text-2xl text-white ${showFinal ? 'block' : 'hidden'}`}>
           Finish
         </Link>
       </div>
