@@ -41,7 +41,7 @@ export default function TermoNuclear() {
                                 }
                             </div>
                                 <div className='w-full h-[40%] flex flex-row'>
-                                <div className='relative w-[50%] sm:w-[40%] md:w-[30%] lg:w-[20%] xl:w-[15%] h-full'>
+                                <div className='relative w-[50%] sm:w-[40%] md:w-[30%] lg:w-[20%] xl:w-[20%] h-full'>
                                     {   
                                         cuttedTrees < 1 ? (
                                             <Image
@@ -109,7 +109,7 @@ export default function TermoNuclear() {
                     * Deforested area: <span className='font-bold text-2xl'>3,3 km²(1,27 mi²) = 462 football pitches</span>;{'\n'}
                     * <span className='font-bold'>Risk of radioactive contamination due to nuclear accident;{`\n`}</span>
                     * Its plant will produce <span className='font-bold'>134,000 liters(35,399 gal) of Uranium-235 radioactive waste (670 barrels) {'\n'}annually</span>, which will have to be stored for <span className='font-bold'>8,000 years.</span>{`\n`}
-                    <span className='text-xl text-red-700'>CLICK HERE TO KNOW MORE </span>       
+                    <span className='text-xl font-bold text-red-600'>CLICK HERE TO KNOW MORE </span>       
         
                 
                     </p>
@@ -125,7 +125,7 @@ export default function TermoNuclear() {
                     * <span className='font-bold'>No use of fossil fuels, which means there are no emissions of the pollutants responsible for{'\n'} the greenhouse effect or acid rains;{'\n'}</span>
                     * <span className='font-bold'>The plants can be installed close to urban centers, as they operate with modern safety systems,{'\n'} posing minimal risks;{'\n'}</span>
                     * <span className='font-bold'>High energy density of fuel (uranium).{'\n'}</span>
-                      <span className='text-xl text-red-600'>CLICK HERE TO KNOW MORE </span>       
+                      <span className='text-xl font-bold text-red-600'>CLICK HERE TO KNOW MORE </span>       
         
                     </p>
                 </Link>

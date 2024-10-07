@@ -84,7 +84,7 @@ export default function WatterPoulution() {
                   ${waterQuality == 'Worthless - pH 4.0' ? 'text-yellow-800' : ''}`}>{waterQuality}</span></h1>
             <h1 className='text-lg font-bold text-black'>Cases of leptospirosis and cholera: <span className='font-bold text-yellow-500'>{death}</span></h1>
             <h1 className='text-lg font-bold text-black'>Days: {days}</h1>
-            <h1 className='text-lg font-bold text-black'>Days without sewage treatment: {daysWithOutTreatment}</h1>
+            <h1 className='text-lg font-bold text-black'>Days without sewage treatment: <span className='font-bold text-red-600'>{daysWithOutTreatment}</span></h1>
             <p className={`text-lg font-bold text-black ${maximum ? 'bold' : 'hidden'}`}>All the city was contaminated</p>
             <p className={`text-lg font-bold text-green-600 ${showMessage ? 'bold' : 'hidden'}`}>
             Congratulations: You've earned a $40,000.00 bonus for saving on healthcare costs after leaving {'\n'}

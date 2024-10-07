@@ -89,7 +89,7 @@ export const WatterProvider: React.FC<{ children: ReactNode }> = ({ children }) 
         if (!on) {
             setDaysWithOutTreatment((prevDays) => prevDays + 1);
             const deathsToAdd = calculateDeaths(daysWithOutTreatment);
-            if(death < 50000){
+            if(death < 800000){
                 if (deathsToAdd > 0) {
                     setDeath((prevDeath) => prevDeath + deathsToAdd);
                 }
