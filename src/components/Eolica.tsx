@@ -47,8 +47,8 @@ export default function Eolica() {
                         className='w-full h-full flex flex-col items-center justify-center hover:cursor-pointer text-black bg-green-500 hover:bg-green-300 transition-all duration-300 '
                         onClick={handleZone1Click}
                     >
-                        <h1 className='text-3xl'>Zone 1</h1>
-                        <p>Wind Intensity: High</p>
+                        <h1 className='text-4xl'>Zone 1</h1>
+                        <p><span className='text-2xl'>Wind Intensity: High</span></p>
                     </div>
                 ) : (
                     <Zone1 />
@@ -62,8 +62,8 @@ export default function Eolica() {
                         className='w-full h-full flex flex-col items-center justify-center hover:cursor-pointer text-black bg-green-500 hover:bg-green-300 transition-all duration-300 '
                         onClick={handleZone2Click}
                     >
-                        <h1 className='text-3xl'>Zone 2</h1>
-                        <p>Wind Intensity: Medium</p>
+                        <h1 className='text-4xl'>Zone 2</h1>
+                        <p><span className='text-2xl'>Wind Intensity: Medium</span></p>
                     </div>
                 ) : (
                     <Zone2 />
@@ -77,8 +77,8 @@ export default function Eolica() {
                         className='w-full h-full flex flex-col items-center justify-center hover:cursor-pointer text-black bg-green-500 hover:bg-green-300 transition-all duration-300'
                         onClick={handleZone3Click}
                     >
-                        <h1 className='text-3xl'>Zone 3</h1>
-                        <p>Wind Intensity: Low</p>
+                        <h1 className='text-4xl'>Zone 3</h1>
+                        <p><span className='text-2xl'>Wind Intensity: Low</span></p>
                     </div>
                 ) : (
                     <Zone3 />

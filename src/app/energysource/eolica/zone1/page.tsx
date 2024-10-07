@@ -12,7 +12,7 @@ export default function Page() {
           rel="noopener noreferrer"
           className='w-full h-full hover:cursor-pointer'
         >
-        <p className="text-white whitespace-pre-wrap text-justify">
+        <p className="text-2xl text-white whitespace-pre-wrap text-justify">
         <span className='font-bold'>Zone potential:</span> 2,500MW (production potential 127.2% above the demand limit){'\n'}
         <span className='font-bold'>Required demand:</span> 1,100MW {'\n'}
         <span className='font-bold'>Production cost:</span> $1,200/KW {'\n'}
@@ -20,16 +20,17 @@ export default function Page() {
         <span className='font-bold'>Total cost for potential zone limit:</span> $ 3,000,000,000 {'\n'}{'\n'}
         <span className='font-bold uppercase'>Impacts:</span>{'\n'}
 
-        •	Your project caused <span className='font-bold'>psychological distress</span> to residents due to noise pollution of <span className='font-bold'>80 decibels (equivalent a hairdryer noise)</span>, as the wind generators were built 150 meters (492 ft) away from homes; {'\n'} 
-        •	<span className='font-bold'>Deforestation and loss of biodiversity;{'\n'}</span>
-        •	<span className='font-bold'>Bird deaths from hitting the blades. {'\n'}</span>
-        CLICK HERE TO KNOW MORE
+        •	Your project caused <span className='font-bold text-yellow-300'>psychological distress</span> to residents due to noise pollution of <span className='font-bold text-yellow-300'>80 decibels(equivalent a hairdryer noise)</span>,{'\n'} as the wind generators were built 150 meters (492 ft) away from homes; {'\n'} 
+        •	<span className='font-bold text-yellow-300'>Deforestation and loss of biodiversity;{'\n'}</span>
+        •	<span className='font-bold text-yellow-300'>Bird deaths from hitting the blades. {'\n'}</span>
+        <span className='text-xl text-cyan-300'>CLICK HERE TO KNOW MORE {'\n'}</span>       
+        
         </p>
         </Link>
         <Link href={"https://www.youtube.com/watch?v=0iCo_t9pY6g"}
           target="_blank" 
           rel="noopener noreferrer"
-          className='w-full h-full hover:cursor-pointer text-white'>
+          className='text-xl w-full h-full hover:cursor-pointer text-red-400'>
           SEE VIDEO(Portuguese language)
 
         </Link>
@@ -39,12 +40,12 @@ export default function Page() {
           rel="noopener noreferrer"
           className='w-full h-full hover:cursor-pointer'
         >
-          <p className="text-white whitespace-pre-wrap text-justify">
+          <p className="text-2xl text-white whitespace-pre-wrap text-justify">
           <span className='font-bold'>BENEFITS:</span>{'\n'}
           • <span className='font-bold'>Renewable & clean source of energy;{'\n'}</span>      
           •	<span className='font-bold'>Low operating costs;{'\n'}</span>
           •	<span className='font-bold'>Efficient use of land space. {'\n'}</span> 
-          CLICK HERE TO KNOW MORE       
+          <span className='text-xl text-cyan-300'>CLICK HERE TO KNOW MORE {'\n'}</span>       
         </p>
         </Link>        
           </>
