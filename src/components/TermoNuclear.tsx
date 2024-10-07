@@ -40,7 +40,7 @@ export default function TermoNuclear() {
                                     ))
                                 }
                             </div>
-                                <div className='w-full h-[20%] flex flex-row'>
+                                <div className='w-full h-[40%] flex flex-row'>
                                 <div className='relative w-[50%] sm:w-[40%] md:w-[30%] lg:w-[20%] xl:w-[15%] h-full'>
                                     {   
                                         cuttedTrees < 1 ? (
@@ -125,7 +125,7 @@ export default function TermoNuclear() {
                     * <span className='font-bold'>No use of fossil fuels, which means there are no emissions of the pollutants responsible for{'\n'} the greenhouse effect or acid rains;{'\n'}</span>
                     * <span className='font-bold'>The plants can be installed close to urban centers, as they operate with modern safety systems,{'\n'} posing minimal risks;{'\n'}</span>
                     * <span className='font-bold'>High energy density of fuel (uranium).{'\n'}</span>
-                      <span className='text-xl text-red-700'>CLICK HERE TO KNOW MORE </span>       
+                      <span className='text-xl text-red-600'>CLICK HERE TO KNOW MORE </span>       
         
                     </p>
                 </Link>

@@ -9,8 +9,8 @@ export default function ChooseGame() {
       In the game you will be in the role of city mayor and {"\n"}
       you will have to make strategic decisions for the future of the city.{"\n"}
       </p>
-      <div className='flex flex-col xl:flex-row items-center justify-center w-full h-full'>
-        <div className='flex flex-col md:flex-row items-center justify-around w-full h-full text-3xl'>
+      <div className=' flex flex-col xl:flex-row items-center justify-center w-full h-full'>
+      <div className=' flex flex-col md:flex-row items-center justify-around w-full h-full'>
           <Game title='Mining' text='Management of operating control and environmental inspection of mines' direction='/mining'/>
             <Game title='Deforestation control' text='Managing deforestation control for city expansion' direction='/vegetalsupression'/>
         </div>

@@ -29,7 +29,7 @@ export default function TermoEletrica() {
                     <div className='flex flex-col items-center justify-center w-[20%] h-full'>
                         {
                             cuttedTrees >= 80 ? (
-                                <button onClick={() => setShowFinal(true)} className='w-full h-[5%] p-0.5 bg-[#8C0303] hover:bg-[#F23E2E] hover:cursor-pointer text-xs'>
+                                <button onClick={() => setShowFinal(true)} className='w-full h-[5%] p-0.5 bg-[#8C0303] hover:bg-[#F23E2E] hover:cursor-pointer text-2xl'>
                                     Finish
                                 </button>
                             ) : (
@@ -37,7 +37,7 @@ export default function TermoEletrica() {
                                 </>
                             )
                         }
-                        <div className='relative w-full h-[10%] sm:h-[15%] md:h-[20%] lg:h-[25%] xl:h-[30%] 2xl:h-[35%]'>
+                        <div className='relative w-full h-[10%] sm:h-[15%] md:h-[20%] lg:h-[25%] xl:h-[30%] 2xl:h-[45%]'>
                             { 
                                 cuttedTrees < 1 ? (
                                     <Image
@@ -97,17 +97,17 @@ export default function TermoEletrica() {
                     className='w-full h-full '
                 >
                     <div className='w-full h-full p-6 overflow-y-auto flex flex-col justify-start'>
-                    <p className="text-white whitespace-pre-wrap text-justify">
+                    <p className="text-2xl text-white whitespace-pre-wrap text-justify">
                     <span className='font-bold'>Required Demand:</span> 1,100MW{'\n'}
                     <span className='font-bold'>Production Cost:</span> ($812/KW){'\n'}
                     <span className='font-bold'>Total Cost: </span> $893,200,000{'\n'}
                     {'\n'}
                     <span className='font-bold uppercase'>Impacts:</span>{'\n'}
-                    * <span className='font-bold'>Deforested area:</span> 1,20 km²(0,46 mi²) = 168 football pitches;{'\n'}
-                    * The plant will emit <span className='font-bold'>530.2 tons of polluting gases per hour</span>, such as Carbon Dioxide (CO2), Carbon Monoxide (CO) and Nitrogen Oxides;{'\n'}
-                    * <span className='font-bold'>Respiratory problems in the population due to the gases;{'\n'}</span>
-                    * The gases emitted will come into contact with water in the atmosphere, thus <span className='font-bold'>leading to the phenomenon of acid rain. {'\n'}</span> 
-                    CLICK HERE TO KNOW MORE{'\n\n\n'}
+                    * Deforested area: <span className='text-yellow-400 font-bold'>1,20 km²(0,46 mi²) = 168 football pitches</span>;{'\n'}
+                    * <span className='font-bold text-yellow-400'>The plant will emit 530.2 tons of polluting gases per hour</span>, such as Carbon Dioxide (CO2), Carbon Monoxide (CO) and Nitrogen Oxides;{'\n'}
+                    * <span className='font-bold text-yellow-400'>Respiratory problems in the population due to the gases</span>;{'\n'}
+                    * The gases emitted will come into contact with water in the atmosphere, thus <span className='font-bold text-yellow-400'>leading to the phenomenon of acid rain. {'\n'}</span> 
+                    <span className='text-xl text-black font-bold'>CLICK HERE TO KNOW MORE </span>       
                     </p>
                 </div>
                 </Link>
@@ -118,12 +118,12 @@ export default function TermoEletrica() {
                     className='w-full h-full'
                 >
                     <div className='w-full h-full bg-red-600 p-6 overflow-y-auto flex flex-col justify-start'>
-                    <p className="text-white whitespace-pre-wrap text-justify">
+                    <p className="text-2xl text-white whitespace-pre-wrap text-justify">
                     <span className='font-bold'>BENEFITS:</span>{'\n'}
                     * <span className='font-bold'>Energy source that serves regions that have no other options;{'\n'}</span>
                     * <span className='font-bold'>Construction faster than hydroelectric plants;{'\n'}</span>
                     * <span className='font-bold'>Installations can be made close to consumption regions.{'\n'}</span>
-                    CLICK HERE TO KNOW MORE{'\n\n\n'}
+                    <span className='text-xl text-black font-bold'>CLICK HERE TO KNOW MORE </span>       
                     </p>
                 </div>
                 </Link>

@@ -24,8 +24,8 @@ const Game: React.FunctionComponent<IGameProps> = (props) => {
         hover:scale-110 transition-all duration-300
       `}>
         <div className='w-full h-full flex flex-col justify-center items-center'>
-        <h1 className='text-xs font-bold uppercase'>{props.title}</h1>
-          <p className='text-xs text-center'>
+        <h1 className='text-xl font-bold uppercase'>{props.title}</h1>
+          <p className='text-xl text-center'>
             {props.text}
           </p>
         </div>
